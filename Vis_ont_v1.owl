@@ -12,10 +12,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Locate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ordering_direction"/>
+        <Class IRI="#Change"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Record"/>
@@ -24,19 +21,10 @@
         <Class IRI="#Ordered"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sequential"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Feature"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Topology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Extreme"/>
@@ -48,22 +36,10 @@
         <Class IRI="#Enjoy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Query"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Trend"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Item"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#One"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cyclic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Action"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dynamic"/>
@@ -72,31 +48,22 @@
         <Class IRI="#Target_attribute"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Angle"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Set"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Network_data"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Version_control_system"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Explore"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diverging"/>
+        <NamedIndividual IRI="#Color"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lookup"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Network"/>
+        <NamedIndividual IRI="#Motion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Static"/>
@@ -108,13 +75,7 @@
         <Class IRI="#Distribution"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Similarity"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Compound_network"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tensor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Discover"/>
@@ -123,43 +84,25 @@
         <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Browse"/>
+        <Class IRI="#Manipulate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dependency"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Correlation"/>
+        <Class IRI="#Aggregate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Produce"/>
+        <Class IRI="#Correlation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Task_abstraction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dataset_type"/>
+        <Class IRI="#Align"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Search"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Other"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ordinal"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Vector"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Derive"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Code"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Categorical"/>
+        <Class IRI="#Encode"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tree"/>
@@ -168,28 +111,16 @@
         <Class IRI="#Identify"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Outlier"/>
+        <Class IRI="#Navigate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Table"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cluster"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shape"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Runtime"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#List"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Consume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Path"/>
@@ -210,22 +141,172 @@
         <Class IRI="#Geometry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Compare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reduce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordering_direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Separate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curvature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Express"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Query"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#One"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Version_control_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diverging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lookup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Similarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Browse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dataset_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Search"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordinal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Derive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categorical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Partition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outlier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#All_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juxtrapose"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Quantitative"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Compare"/>
+        <Class IRI="#Grid"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Grid"/>
+        <Class IRI="#Superimpose"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Present"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Position"/>
+        <Class IRI="#Select"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Data_attribute"/>
@@ -236,6 +317,14 @@
     <SubClassOf>
         <Class IRI="#Action"/>
         <Class IRI="#Task_abstraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aggregate"/>
+        <Class IRI="#Reduce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Align"/>
+        <Class IRI="#Arrange"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#All_data"/>
@@ -250,12 +339,20 @@
         <Class IRI="#Produce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Arrange"/>
+        <Class IRI="#Encode"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Browse"/>
         <Class IRI="#Search"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Categorical"/>
         <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change"/>
+        <Class IRI="#Manipulate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cluster"/>
@@ -326,6 +423,14 @@
         <Class IRI="#Source"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Embed"/>
+        <Class IRI="#Reduce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encode"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Enjoy"/>
         <Class IRI="#Consume"/>
     </SubClassOf>
@@ -334,8 +439,16 @@
         <Class IRI="#Search"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Express"/>
+        <Class IRI="#Arrange"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Extreme"/>
         <Class IRI="#One"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facet"/>
+        <Class IRI="#Approach"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Feature"/>
@@ -344,6 +457,10 @@
     <SubClassOf>
         <Class IRI="#Field"/>
         <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filter"/>
+        <Class IRI="#Reduce"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Geometry"/>
@@ -362,6 +479,10 @@
         <Class IRI="#Data_type"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Juxtrapose"/>
+        <Class IRI="#Facet"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Link"/>
         <Class IRI="#Data_type"/>
     </SubClassOf>
@@ -378,8 +499,20 @@
         <Class IRI="#Search"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Manipulate"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Many"/>
         <Class IRI="#Target_attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <Class IRI="#Encode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navigate"/>
+        <Class IRI="#Manipulate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Network"/>
@@ -392,6 +525,10 @@
     <SubClassOf>
         <Class IRI="#One"/>
         <Class IRI="#Target_attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <Class IRI="#Arrange"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ordered"/>
@@ -412,6 +549,10 @@
     <SubClassOf>
         <Class IRI="#Outlier"/>
         <Class IRI="#All_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Partition"/>
+        <Class IRI="#Facet"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Path"/>
@@ -442,6 +583,10 @@
         <Class IRI="#Produce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Reduce"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Runtime"/>
         <Class IRI="#Dynamic"/>
     </SubClassOf>
@@ -452,6 +597,14 @@
     <SubClassOf>
         <Class IRI="#Search"/>
         <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Select"/>
+        <Class IRI="#Manipulate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Separate"/>
+        <Class IRI="#Arrange"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sequential"/>
@@ -486,6 +639,10 @@
         <Class IRI="#Query"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Superimpose"/>
+        <Class IRI="#Facet"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Table"/>
         <Class IRI="#Dataset_type"/>
     </SubClassOf>
@@ -518,6 +675,10 @@
         <Class IRI="#Data_attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Use"/>
+        <Class IRI="#Arrange"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vector"/>
         <Class IRI="#Field"/>
     </SubClassOf>
@@ -528,6 +689,18 @@
     <DisjointClasses>
         <Class IRI="#Action"/>
         <Class IRI="#Target"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aggregate"/>
+        <Class IRI="#Embed"/>
+        <Class IRI="#Filter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Align"/>
+        <Class IRI="#Express"/>
+        <Class IRI="#Order"/>
+        <Class IRI="#Separate"/>
+        <Class IRI="#Use"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#All_data"/>
@@ -546,6 +719,10 @@
         <Class IRI="#Record"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Arrange"/>
+        <Class IRI="#Map"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Browse"/>
         <Class IRI="#Explore"/>
         <Class IRI="#Locate"/>
@@ -554,6 +731,11 @@
     <DisjointClasses>
         <Class IRI="#Categorical"/>
         <Class IRI="#Ordered"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Change"/>
+        <Class IRI="#Navigate"/>
+        <Class IRI="#Select"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Cluster"/>
@@ -596,14 +778,49 @@
         <Class IRI="#Extreme"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Encode"/>
+        <Class IRI="#Facet"/>
+        <Class IRI="#Manipulate"/>
+        <Class IRI="#Reduce"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Feature"/>
         <Class IRI="#Outlier"/>
         <Class IRI="#Trend"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Juxtrapose"/>
+        <Class IRI="#Partition"/>
+        <Class IRI="#Superimpose"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Many"/>
         <Class IRI="#One"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Angle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Curvature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Motion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Shape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#Size"/>
+    </ClassAssertion>
 </Ontology>
 
 
