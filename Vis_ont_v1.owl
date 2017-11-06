@@ -11,6 +11,263 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Dataset_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordinal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categorical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cluster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runtime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Version_control_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Path"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scalar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Static"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compound_network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Link"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Attribute"/>
+        <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categorical"/>
+        <Class IRI="#Ordered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cluster"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code"/>
+        <Class IRI="#Static"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compound_network"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_type"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dataset_type"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamic"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Field"/>
+        <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grid"/>
+        <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Link"/>
+        <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#List"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network"/>
+        <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Order"/>
+        <Class IRI="#Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordered"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordinal"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Path"/>
+        <Class IRI="#List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantitative"/>
+        <Class IRI="#Ordered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runtime"/>
+        <Class IRI="#Dynamic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scalar"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set"/>
+        <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Static"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Table"/>
+        <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tensor"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tree"/>
+        <Class IRI="#Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vector"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Version_control_system"/>
+        <Class IRI="#Static"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Attribute"/>
+        <Class IRI="#Grid"/>
+        <Class IRI="#Item"/>
+        <Class IRI="#Link"/>
+        <Class IRI="#Position"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cluster"/>
+        <Class IRI="#List"/>
+        <Class IRI="#Set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ordered"/>
+        <Class IRI="#Ordinal"/>
+    </DisjointClasses>
 </Ontology>
 
 
