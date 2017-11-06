@@ -21,7 +21,13 @@
         <Class IRI="#Ordinal"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ordering_direction"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ordered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequential"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Data_type"/>
@@ -33,10 +39,10 @@
         <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Code"/>
+        <Class IRI="#Categorical"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Categorical"/>
+        <Class IRI="#Code"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tree"/>
@@ -52,6 +58,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyclic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#List"/>
@@ -72,6 +81,9 @@
         <Class IRI="#Data"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Diverging"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Path"/>
     </Declaration>
     <Declaration>
@@ -87,13 +99,10 @@
         <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Network"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Order"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Static"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Field"/>
@@ -126,7 +135,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Categorical"/>
-        <Class IRI="#Ordered"/>
+        <Class IRI="#Type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cluster"/>
@@ -141,12 +150,20 @@
         <Class IRI="#Network"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cyclic"/>
+        <Class IRI="#Ordering_direction"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Data_type"/>
         <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dataset_type"/>
         <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diverging"/>
+        <Class IRI="#Ordering_direction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dynamic"/>
@@ -181,16 +198,16 @@
         <Class IRI="#Dataset_type"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Order"/>
-        <Class IRI="#Attributes"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Ordered"/>
         <Class IRI="#Type"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ordering_direction"/>
+        <Class IRI="#Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ordinal"/>
-        <Class IRI="#Type"/>
+        <Class IRI="#Ordered"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Other"/>
@@ -215,6 +232,10 @@
     <SubClassOf>
         <Class IRI="#Scalar"/>
         <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequential"/>
+        <Class IRI="#Ordering_direction"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Set"/>
@@ -260,13 +281,18 @@
         <Class IRI="#Position"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Categorical"/>
+        <Class IRI="#Ordered"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Cluster"/>
         <Class IRI="#List"/>
         <Class IRI="#Set"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Ordered"/>
-        <Class IRI="#Ordinal"/>
+        <Class IRI="#Cyclic"/>
+        <Class IRI="#Diverging"/>
+        <Class IRI="#Sequential"/>
     </DisjointClasses>
 </Ontology>
 
