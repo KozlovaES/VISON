@@ -25,6 +25,9 @@
         <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Superimpose_layer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Topology"/>
     </Declaration>
     <Declaration>
@@ -56,6 +59,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item_reduction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Explore"/>
@@ -112,6 +118,15 @@
         <Class IRI="#Align"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Share_encoding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Different"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Encode"/>
     </Declaration>
     <Declaration>
@@ -131,6 +146,21 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Runtime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atribute_reduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#None"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Share_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zoom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Path"/>
@@ -154,10 +184,19 @@
         <NamedIndividual IRI="#Depth"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#License"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Same"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Free"/>
@@ -167,6 +206,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Proprietary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Constraine"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shape"/>
@@ -196,7 +238,13 @@
         <Class IRI="#Feature"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Curvature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slice"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Express"/>
@@ -235,6 +283,9 @@
         <Class IRI="#Diverging"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lookup"/>
     </Declaration>
     <Declaration>
@@ -265,7 +316,13 @@
         <Class IRI="#Browse"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#All"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Facet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distort_geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Produce"/>
@@ -319,16 +376,19 @@
         <Class IRI="#Map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Approach"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Consume"/>
     </Declaration>
     <Declaration>
         <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Elide_deta"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Juxtrapose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Navigate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Quantitative"/>
@@ -349,6 +409,9 @@
         <Class IRI="#Select"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Share_navigation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Link"/>
     </Declaration>
     <Declaration>
@@ -367,6 +430,10 @@
         <Class IRI="#Arrange"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#All"/>
+        <Class IRI="#Share_data"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#All_data"/>
         <Class IRI="#Target"/>
     </SubClassOf>
@@ -381,6 +448,10 @@
     <SubClassOf>
         <Class IRI="#Arrange"/>
         <Class IRI="#Encode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atribute_reduction"/>
+        <Class IRI="#Navigate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Attributes"/>
@@ -447,8 +518,16 @@
         <Class IRI="#Produce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Different"/>
+        <Class IRI="#Share_encoding"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Discover"/>
         <Class IRI="#Consume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distort_geometry"/>
+        <Class IRI="#Embed"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Distribution"/>
@@ -463,12 +542,16 @@
         <Class IRI="#Source"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Elide_deta"/>
+        <Class IRI="#Embed"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Embed"/>
         <Class IRI="#Reduce"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Encode"/>
-        <Class IRI="#Approach"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Enjoy"/>
@@ -488,7 +571,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Facet"/>
-        <Class IRI="#Approach"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Feature"/>
@@ -507,6 +590,10 @@
         <Class IRI="#License"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#GPL"/>
+        <Class IRI="#Free"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Geometry"/>
         <Class IRI="#Dataset_type"/>
     </SubClassOf>
@@ -521,6 +608,10 @@
     <SubClassOf>
         <Class IRI="#Item"/>
         <Class IRI="#Data_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item_reduction"/>
+        <Class IRI="#Navigate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Juxtrapose"/>
@@ -544,7 +635,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manipulate"/>
-        <Class IRI="#Approach"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Many"/>
@@ -565,6 +656,10 @@
     <SubClassOf>
         <Class IRI="#Network_data"/>
         <Class IRI="#Target"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#None"/>
+        <Class IRI="#Share_data"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#One"/>
@@ -636,11 +731,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reduce"/>
-        <Class IRI="#Approach"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Runtime"/>
         <Class IRI="#Dynamic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Same"/>
+        <Class IRI="#Share_encoding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Scalar"/>
@@ -671,6 +770,18 @@
         <Class IRI="#Spatial_data"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Share_data"/>
+        <Class IRI="#Juxtrapose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Share_encoding"/>
+        <Class IRI="#Juxtrapose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Share_navigation"/>
+        <Class IRI="#Juxtrapose"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Similarity"/>
         <Class IRI="#Many"/>
     </SubClassOf>
@@ -687,12 +798,20 @@
         <Class IRI="#Source"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Subset"/>
+        <Class IRI="#Share_data"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Summarize"/>
         <Class IRI="#Query"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Superimpose"/>
         <Class IRI="#Facet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Superimpose_layer"/>
+        <Class IRI="#Embed"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Table"/>
@@ -755,6 +874,11 @@
         <Class IRI="#Use"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#All"/>
+        <Class IRI="#None"/>
+        <Class IRI="#Subset"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#All_data"/>
         <Class IRI="#Network_data"/>
         <Class IRI="#Spatial_data"/>
@@ -773,6 +897,17 @@
     <DisjointClasses>
         <Class IRI="#Arrange"/>
         <Class IRI="#Map"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atribute_reduction"/>
+        <Class IRI="#Item_reduction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Grid"/>
+        <Class IRI="#Item"/>
+        <Class IRI="#Link"/>
+        <Class IRI="#Position"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Browse"/>
@@ -814,11 +949,8 @@
         <Class IRI="#Sequential"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Data_attribute"/>
-        <Class IRI="#Grid"/>
-        <Class IRI="#Item"/>
-        <Class IRI="#Link"/>
-        <Class IRI="#Position"/>
+        <Class IRI="#Different"/>
+        <Class IRI="#Same"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Discover"/>
@@ -826,8 +958,17 @@
         <Class IRI="#Present"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Distort_geometry"/>
+        <Class IRI="#Elide_deta"/>
+        <Class IRI="#Superimpose_layer"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Distribution"/>
         <Class IRI="#Extreme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dynamic"/>
+        <Class IRI="#Static"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Encode"/>
@@ -841,6 +982,13 @@
         <Class IRI="#Trend"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Field"/>
+        <Class IRI="#Geometry"/>
+        <Class IRI="#Network"/>
+        <Class IRI="#Other"/>
+        <Class IRI="#Table"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Free"/>
         <Class IRI="#Proprietary"/>
     </DisjointClasses>
@@ -852,6 +1000,11 @@
     <DisjointClasses>
         <Class IRI="#Many"/>
         <Class IRI="#One"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Share_data"/>
+        <Class IRI="#Share_encoding"/>
+        <Class IRI="#Share_navigation"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Map"/>
@@ -874,12 +1027,20 @@
         <NamedIndividual IRI="#Color_hue"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Item_reduction"/>
+        <NamedIndividual IRI="#Constraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Curvature"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ordinal"/>
         <NamedIndividual IRI="#Curvature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atribute_reduction"/>
+        <NamedIndividual IRI="#Cut"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ordinal"/>
@@ -898,10 +1059,18 @@
         <NamedIndividual IRI="#Motion"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Item_reduction"/>
+        <NamedIndividual IRI="#Navigate"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Ordinal"/>
         <NamedIndividual IRI="#Position"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Atribute_reduction"/>
+        <NamedIndividual IRI="#Project"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Categorical"/>
         <NamedIndividual IRI="#Shape"/>
     </ClassAssertion>
@@ -916,6 +1085,10 @@
     <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Size"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atribute_reduction"/>
+        <NamedIndividual IRI="#Slice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Categorical"/>
@@ -925,10 +1098,30 @@
         <Class IRI="#Ordinal"/>
         <NamedIndividual IRI="#Volume"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Item_reduction"/>
+        <NamedIndividual IRI="#Zoom"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affects"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Filter"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasAttribute"/>
         <Class IRI="#Dataset_type"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAttribute"/>
         <Class IRI="#Data_type"/>
