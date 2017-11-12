@@ -154,10 +154,19 @@
         <NamedIndividual IRI="#Depth"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#License"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Compare"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Free"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proprietary"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shape"/>
@@ -230,6 +239,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open-source"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Network"/>
@@ -491,6 +503,10 @@
         <Class IRI="#Reduce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Free"/>
+        <Class IRI="#License"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Geometry"/>
         <Class IRI="#Dataset_type"/>
     </SubClassOf>
@@ -555,6 +571,10 @@
         <Class IRI="#Target_attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Open-source"/>
+        <Class IRI="#License"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Order"/>
         <Class IRI="#Arrange"/>
     </SubClassOf>
@@ -597,6 +617,10 @@
     <SubClassOf>
         <Class IRI="#Produce"/>
         <Class IRI="#Analyze"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proprietary"/>
+        <Class IRI="#License"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Quantitative"/>
@@ -815,6 +839,10 @@
         <Class IRI="#Feature"/>
         <Class IRI="#Outlier"/>
         <Class IRI="#Trend"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Free"/>
+        <Class IRI="#Proprietary"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Juxtrapose"/>
