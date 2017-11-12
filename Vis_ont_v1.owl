@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/ekaterina/ontologies/2017/10/untitled-ontology-15">
+    <Prefix name="" IRI="http://www.semanticweb.org/ekaterina/ontologies/2017/10/untitled-ontology-15"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -30,10 +31,13 @@
         <Class IRI="#Extreme"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Enjoy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Target"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Enjoy"/>
+        <NamedIndividual IRI="#Position"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Item"/>
@@ -48,10 +52,10 @@
         <Class IRI="#Target_attribute"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Angle"/>
+        <Class IRI="#Set"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Set"/>
+        <NamedIndividual IRI="#Angle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Explore"/>
@@ -69,19 +73,22 @@
         <Class IRI="#Static"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Distribution"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Distribution"/>
+        <NamedIndividual IRI="#Length"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compound_network"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Discover"/>
+        <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Many"/>
+        <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Manipulate"/>
@@ -91,6 +98,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Aggregate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttribute"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Correlation"/>
@@ -135,10 +145,13 @@
         <Class IRI="#Annotate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Geometry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Summarize"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Geometry"/>
+        <NamedIndividual IRI="#Depth"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compare"/>
@@ -147,16 +160,19 @@
         <Class IRI="#Position"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Locate"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Shape"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Reduce"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Locate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ordering_direction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sequential"/>
@@ -165,16 +181,22 @@
         <Class IRI="#Separate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Feature"/>
+        <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Source"/>
+        <Class IRI="#Feature"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Curvature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Express"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spartial_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attributes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Query"/>
@@ -216,13 +238,16 @@
         <Class IRI="#Order"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Similarity"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Embed"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Similarity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Area"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Browse"/>
@@ -232,6 +257,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Produce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Color_hue"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dataset_type"/>
@@ -309,10 +337,10 @@
         <Class IRI="#Select"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data_attribute"/>
+        <Class IRI="#Link"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Link"/>
+        <Class IRI="#Data_attribute"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Action"/>
@@ -341,6 +369,10 @@
     <SubClassOf>
         <Class IRI="#Arrange"/>
         <Class IRI="#Encode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Data_type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Browse"/>
@@ -385,10 +417,6 @@
     <SubClassOf>
         <Class IRI="#Data_attribute"/>
         <Class IRI="#Data"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Data_attribute"/>
-        <Class IRI="#Data_type"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Data_type"/>
@@ -802,25 +830,81 @@
         <NamedIndividual IRI="#Angle"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Angle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Area"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorical"/>
+        <NamedIndividual IRI="#Color_hue"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Curvature"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Curvature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Depth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Length"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorical"/>
+        <NamedIndividual IRI="#Motion"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Motion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Position"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorical"/>
+        <NamedIndividual IRI="#Shape"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Shape"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Categorical"/>
+        <NamedIndividual IRI="#Size"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Map"/>
         <NamedIndividual IRI="#Size"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorical"/>
+        <NamedIndividual IRI="#Spartial_region"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ordinal"/>
+        <NamedIndividual IRI="#Volume"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <Class IRI="#Dataset_type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <Class IRI="#Data_type"/>
+    </ObjectPropertyRange>
 </Ontology>
 
 
