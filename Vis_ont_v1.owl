@@ -34,10 +34,16 @@
         <Class IRI="#Extreme"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Target"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Enjoy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Target"/>
+        <Class IRI="#Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Implementing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Position"/>
@@ -49,10 +55,10 @@
         <Class IRI="#Cyclic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dynamic"/>
+        <Class IRI="#Target_attribute"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Target_attribute"/>
+        <Class IRI="#Dynamic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Set"/>
@@ -70,7 +76,13 @@
         <NamedIndividual IRI="#Color"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Understanding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elements"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Motion"/>
@@ -91,10 +103,10 @@
         <Class IRI="#Compound_network"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Many"/>
+        <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Discover"/>
+        <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Manipulate"/>
@@ -127,6 +139,9 @@
         <Class IRI="#Different"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Method_properties"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Encode"/>
     </Declaration>
     <Declaration>
@@ -137,6 +152,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Navigate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polices"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Table"/>
@@ -151,28 +169,40 @@
         <Class IRI="#Atribute_reduction"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Subset"/>
     </Declaration>
     <Declaration>
         <Class IRI="#None"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Share_data"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Zoom"/>
+        <Class IRI="#Process-oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Path"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Analyze"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Spatial_data"/>
+        <Class IRI="#Annotate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Annotate"/>
+        <Class IRI="#Spatial_data"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Geometry"/>
@@ -184,10 +214,19 @@
         <NamedIndividual IRI="#Depth"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Changes"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#affects"/>
     </Declaration>
     <Declaration>
         <Class IRI="#License"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Questioning"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compare"/>
@@ -196,7 +235,16 @@
         <Class IRI="#GPL"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Progress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Element_relationship"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Same"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intent_and_application"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Free"/>
@@ -211,13 +259,16 @@
         <NamedIndividual IRI="#Constraine"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Shape"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Reduce"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Locate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teammates"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ordering_direction"/>
@@ -229,31 +280,37 @@
         <Class IRI="#Sequential"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Separate"/>
+        <Class IRI="#Type_relationships"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Source"/>
+        <Class IRI="#Separate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Feature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Technique"/>
+        <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Curvature"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Slice"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Express"/>
+        <Class IRI="#Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rationale"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spartial_region"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Attributes"/>
+        <Class IRI="#Express"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Query"/>
@@ -263,6 +320,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#One"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#History"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Action"/>
@@ -275,6 +335,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Version_control_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building_and_branching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfomance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Data"/>
@@ -295,10 +361,13 @@
         <Class IRI="#Open-source"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Network"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Order"/>
+        <Class IRI="#Concurrency"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Embed"/>
@@ -307,10 +376,16 @@
         <Class IRI="#Similarity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Dependencies"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tensor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Browse"/>
@@ -325,19 +400,28 @@
         <Class IRI="#Distort_geometry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Problem-oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service-oriented"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Produce"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Color_hue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dataset_type"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Search"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Implications"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dataset_type"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ordinal"/>
@@ -346,16 +430,25 @@
         <Class IRI="#Arrange"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Web"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refactoring"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Derive"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Categorical"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Code"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Categorical"/>
+        <Class IRI="#Build"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Partition"/>
@@ -365,6 +458,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Filter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cluster"/>
@@ -379,6 +475,12 @@
         <Class IRI="#Consume"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contracts"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
@@ -388,13 +490,19 @@
         <Class IRI="#Juxtrapose"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Navigate"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Quantitative"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Navigate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Scalar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_flow"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Grid"/>
@@ -404,6 +512,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Present"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Debugging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Select"/>
@@ -446,6 +557,10 @@
         <Class IRI="#Produce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Element_relationship"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Arrange"/>
         <Class IRI="#Encode"/>
     </SubClassOf>
@@ -462,6 +577,18 @@
         <Class IRI="#Search"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Build"/>
+        <Class IRI="#Service-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#Process-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building_and_branching"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Categorical"/>
         <Class IRI="#Type"/>
     </SubClassOf>
@@ -470,8 +597,16 @@
         <Class IRI="#Manipulate"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Changes"/>
+        <Class IRI="#Problem-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cluster"/>
         <Class IRI="#Other"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code"/>
+        <Class IRI="#Service-oriented"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Code"/>
@@ -486,8 +621,20 @@
         <Class IRI="#Network"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Concurrency"/>
+        <Class IRI="#Elements"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Consume"/>
         <Class IRI="#Analyze"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contracts"/>
+        <Class IRI="#Element_relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control_flow"/>
+        <Class IRI="#Element_relationship"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Correlation"/>
@@ -502,12 +649,24 @@
         <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Data_flow"/>
+        <Class IRI="#Element_relationship"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Data_type"/>
         <Class IRI="#Data"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dataset_type"/>
         <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Debugging"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dependencies"/>
+        <Class IRI="#Element_relationship"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dependency"/>
@@ -540,6 +699,14 @@
     <SubClassOf>
         <Class IRI="#Dynamic"/>
         <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Element_relationship"/>
+        <Class IRI="#Problem-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elements"/>
+        <Class IRI="#Problem-oriented"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Elide_deta"/>
@@ -586,6 +753,10 @@
         <Class IRI="#Reduce"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Finding"/>
+        <Class IRI="#Process-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Free"/>
         <Class IRI="#License"/>
     </SubClassOf>
@@ -602,8 +773,24 @@
         <Class IRI="#Data_type"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#History"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Identify"/>
         <Class IRI="#Query"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementing"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implications"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intent_and_application"/>
+        <Class IRI="#Elements"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Item"/>
@@ -630,6 +817,10 @@
         <Class IRI="#Search"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Elements"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lookup"/>
         <Class IRI="#Search"/>
     </SubClassOf>
@@ -644,6 +835,10 @@
     <SubClassOf>
         <Class IRI="#Map"/>
         <Class IRI="#Encode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Method_properties"/>
+        <Class IRI="#Elements"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Navigate"/>
@@ -702,6 +897,18 @@
         <Class IRI="#List"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#People"/>
+        <Class IRI="#Service-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfomance"/>
+        <Class IRI="#Elements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polices"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Position"/>
         <Class IRI="#Data_type"/>
     </SubClassOf>
@@ -710,8 +917,20 @@
         <Class IRI="#Consume"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Problem-oriented"/>
+        <Class IRI="#Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process-oriented"/>
+        <Class IRI="#Domain"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Produce"/>
         <Class IRI="#Analyze"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progress"/>
+        <Class IRI="#Service-oriented"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Proprietary"/>
@@ -726,12 +945,24 @@
         <Class IRI="#Action"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Questioning"/>
+        <Class IRI="#Process-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rationale"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Record"/>
         <Class IRI="#Produce"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reduce"/>
         <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refactoring"/>
+        <Class IRI="#Changes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Runtime"/>
@@ -760,6 +991,10 @@
     <SubClassOf>
         <Class IRI="#Sequential"/>
         <Class IRI="#Ordering_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service-oriented"/>
+        <Class IRI="#Domain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Set"/>
@@ -826,8 +1061,20 @@
         <Class IRI="#Target"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Teammates"/>
+        <Class IRI="#Changes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tensor"/>
         <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test"/>
+        <Class IRI="#Service-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing"/>
+        <Class IRI="#Changes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Topology"/>
@@ -846,6 +1093,14 @@
         <Class IRI="#Data_attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Type_relationships"/>
+        <Class IRI="#Element_relationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Understanding"/>
+        <Class IRI="#Process-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Use"/>
         <Class IRI="#Arrange"/>
     </SubClassOf>
@@ -856,6 +1111,10 @@
     <SubClassOf>
         <Class IRI="#Version_control_system"/>
         <Class IRI="#Static"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web"/>
+        <Class IRI="#Service-oriented"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Action"/>
@@ -895,6 +1154,14 @@
         <Class IRI="#Record"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#Contracts"/>
+        <Class IRI="#Control_flow"/>
+        <Class IRI="#Data_flow"/>
+        <Class IRI="#Dependencies"/>
+        <Class IRI="#Type_relationships"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Arrange"/>
         <Class IRI="#Map"/>
     </DisjointClasses>
@@ -916,6 +1183,32 @@
         <Class IRI="#Lookup"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Build"/>
+        <Class IRI="#Code"/>
+        <Class IRI="#People"/>
+        <Class IRI="#Progress"/>
+        <Class IRI="#Test"/>
+        <Class IRI="#Web"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Building"/>
+        <Class IRI="#Finding"/>
+        <Class IRI="#Questioning"/>
+        <Class IRI="#Understanding"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Building_and_branching"/>
+        <Class IRI="#Debugging"/>
+        <Class IRI="#History"/>
+        <Class IRI="#Implementing"/>
+        <Class IRI="#Implications"/>
+        <Class IRI="#Polices"/>
+        <Class IRI="#Rationale"/>
+        <Class IRI="#Refactoring"/>
+        <Class IRI="#Teammates"/>
+        <Class IRI="#Testing"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Categorical"/>
         <Class IRI="#Ordered"/>
     </DisjointClasses>
@@ -923,6 +1216,11 @@
         <Class IRI="#Change"/>
         <Class IRI="#Navigate"/>
         <Class IRI="#Select"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Changes"/>
+        <Class IRI="#Element_relationship"/>
+        <Class IRI="#Elements"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Cluster"/>
@@ -933,6 +1231,13 @@
         <Class IRI="#Compare"/>
         <Class IRI="#Identify"/>
         <Class IRI="#Summarize"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concurrency"/>
+        <Class IRI="#Intent_and_application"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Method_properties"/>
+        <Class IRI="#Perfomance"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Consume"/>
@@ -1000,6 +1305,11 @@
     <DisjointClasses>
         <Class IRI="#Many"/>
         <Class IRI="#One"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Problem-oriented"/>
+        <Class IRI="#Process-oriented"/>
+        <Class IRI="#Service-oriented"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Share_data"/>
