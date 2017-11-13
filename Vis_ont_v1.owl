@@ -160,6 +160,12 @@
         <Class IRI="#Table"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_service"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Shape"/>
     </Declaration>
     <Declaration>
@@ -265,6 +271,12 @@
         <Class IRI="#Locate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stand-alone"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Shape"/>
     </Declaration>
     <Declaration>
@@ -284,6 +296,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Separate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Feature"/>
@@ -449,6 +464,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Build"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OS"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Partition"/>
@@ -841,6 +859,10 @@
         <Class IRI="#Elements"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Navigate"/>
         <Class IRI="#Manipulate"/>
     </SubClassOf>
@@ -855,6 +877,10 @@
     <SubClassOf>
         <Class IRI="#None"/>
         <Class IRI="#Share_data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OS"/>
+        <Class IRI="#Tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#One"/>
@@ -1029,6 +1055,10 @@
         <Class IRI="#Target"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Stand-alone"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Static"/>
         <Class IRI="#Source"/>
     </SubClassOf>
@@ -1097,6 +1127,10 @@
         <Class IRI="#Element_relationship"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Understanding"/>
         <Class IRI="#Process-oriented"/>
     </SubClassOf>
@@ -1114,6 +1148,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Web"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_service"/>
         <Class IRI="#Service-oriented"/>
     </SubClassOf>
     <DisjointClasses>
@@ -1188,7 +1226,7 @@
         <Class IRI="#People"/>
         <Class IRI="#Progress"/>
         <Class IRI="#Test"/>
-        <Class IRI="#Web"/>
+        <Class IRI="#Web_service"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Building"/>
@@ -1305,6 +1343,12 @@
     <DisjointClasses>
         <Class IRI="#Many"/>
         <Class IRI="#One"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Name"/>
+        <Class IRI="#OS"/>
+        <Class IRI="#Stand-alone"/>
+        <Class IRI="#URL"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Problem-oriented"/>
