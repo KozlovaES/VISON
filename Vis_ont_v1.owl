@@ -13,6 +13,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <NamedIndividual IRI="#Stencil_visualization_environment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Record"/>
     </Declaration>
     <Declaration>
@@ -20,6 +23,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Data_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MT4j"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Superimpose_layer"/>
@@ -32,6 +38,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MetaVis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#useFramework"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mondrian"/>
@@ -47,6 +56,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GENISOM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wxWidgets"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Explora"/>
@@ -76,6 +88,12 @@
         <NamedIndividual IRI="#Atropos"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#NetBeans_Visual_Library"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Play_web_framework"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Vampir"/>
     </Declaration>
     <Declaration>
@@ -85,7 +103,16 @@
         <NamedIndividual IRI="#Polymetric_views"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Java_FX"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#underLicense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tcl/Tk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Elements"/>
@@ -151,6 +178,9 @@
         <Class IRI="#Navigate"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Swing_or_SWT"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Matrix"/>
     </Declaration>
     <Declaration>
@@ -202,13 +232,25 @@
         <Class IRI="#License"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CCJun"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Questioning"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compare"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Matrix_software_visualisation_framework"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#VisMOOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wxWindows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TypeScript"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Progress"/>
@@ -235,7 +277,13 @@
         <NamedIndividual IRI="#Gevol"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Eclipse_Visualization_Toolkit"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Constraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jMonkeyEngine"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Beat"/>
@@ -256,6 +304,9 @@
         <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#G4P"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Commercial"/>
     </Declaration>
     <Declaration>
@@ -269,6 +320,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Custom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java_8"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Technique"/>
@@ -337,6 +391,9 @@
         <NamedIndividual IRI="#SeeTest"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Control_FX"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Annotated_live_visualization"/>
     </Declaration>
     <Declaration>
@@ -350,6 +407,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Binary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D3.js"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Paladir"/>
@@ -418,6 +478,9 @@
         <NamedIndividual IRI="#System_Radiography"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TreeMap_Java_Library"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ProfVis"/>
     </Declaration>
     <Declaration>
@@ -428,6 +491,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SolidFX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_graph"/>
@@ -448,6 +514,12 @@
         <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Java3D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenJDK_1.6.0_18_64bit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Quantitative"/>
     </Declaration>
     <Declaration>
@@ -461,6 +533,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jsvee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VR_Juggler"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#War_Room_Command_Console"/>
@@ -484,7 +559,13 @@
         <NamedIndividual IRI="#Bytecode"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#JFreeChart"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#MIT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenGL"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Present"/>
@@ -505,6 +586,9 @@
         <Class IRI="#Data_attribute"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#HTML5"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Tag_cloud"/>
     </Declaration>
     <Declaration>
@@ -512,6 +596,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FlyBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenCloud"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HEB"/>
@@ -524,6 +611,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Enjoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GraphViz"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Domain"/>
@@ -547,6 +637,9 @@
         <Class IRI="#Explore"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Eclipse"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Bug_tracking_system"/>
     </Declaration>
     <Declaration>
@@ -559,7 +652,13 @@
         <Class IRI="#Type"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Graph_Works"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apache_Commons_Byte_Code_Engineering_Library"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Code_Bubbles"/>
@@ -580,6 +679,9 @@
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Processing"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
@@ -593,6 +695,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Metrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roassal"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_code_city"/>
@@ -697,6 +802,9 @@
         <Class IRI="#Changes"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Binary_files"/>
     </Declaration>
     <Declaration>
@@ -710,6 +818,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java_6_using_AWT"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Heatmap"/>
@@ -742,16 +853,31 @@
         <ObjectProperty IRI="#useDataSource"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sequential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pharo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#EPOSee"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Separate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trevis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Source"/>
@@ -773,6 +899,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Express"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GraphStream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smalltalk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Query"/>
@@ -799,6 +931,9 @@
         <Class IRI="#Diverging"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Flask"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Zinsight"/>
     </Declaration>
     <Declaration>
@@ -814,6 +949,9 @@
         <Class IRI="#Lookup"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GLUT"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Open-source"/>
     </Declaration>
     <Declaration>
@@ -823,7 +961,16 @@
         <Class IRI="#Network"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Prefuse_toolkit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Similarity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Graphisto_Toolkit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FTGL"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Evolve"/>
@@ -877,6 +1024,9 @@
         <NamedIndividual IRI="#VAST"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#FreeType"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GUITracer"/>
     </Declaration>
     <Declaration>
@@ -895,7 +1045,13 @@
         <Class IRI="#Partition"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#FLTK"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Outlier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HProf"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Filter"/>
@@ -916,6 +1072,12 @@
         <NamedIndividual IRI="#Marama_Torua"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Roassal3D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abego_TreeLayout"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Consume"/>
     </Declaration>
     <Declaration>
@@ -934,6 +1096,9 @@
         <NamedIndividual IRI="#Documentation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#yFiles_library"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Testing"/>
     </Declaration>
     <Declaration>
@@ -941,6 +1106,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ivis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dot"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SMNLV"/>
@@ -1928,6 +2096,21 @@
         <NamedIndividual IRI="#Metrics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Pharo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Roassal3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Smalltalk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -1953,6 +2136,21 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Apache_Commons_Byte_Code_Engineering_Library"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Matrix_software_visualisation_framework"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -1971,6 +2169,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Blended_City"/>
         <NamedIndividual IRI="#Changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Pharo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Roassal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Smalltalk"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -1998,6 +2211,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -2021,6 +2244,26 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CVSgrab"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#wxWidgets"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2053,6 +2296,26 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#wxWidgets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#CVSscan"/>
         <NamedIndividual IRI="#Dense_pixel"/>
@@ -2073,6 +2336,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#GraphViz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#Standard"/>
@@ -2086,6 +2354,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#ChronoTwigger"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#GLUT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#VR_Juggler"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2106,6 +2389,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Chronos"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Java"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2148,6 +2436,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Play_web_framework"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#ConceptCloud"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -2161,6 +2454,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#jMonkeyEngine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2198,6 +2496,16 @@
         <NamedIndividual IRI="#Documentation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#G4P"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#DEVis"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -2218,6 +2526,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#yFiles_library"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -2231,6 +2549,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#ECCO"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2348,6 +2676,11 @@
         <NamedIndividual IRI="#Documentation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Flatland"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -2366,6 +2699,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#FlyBy"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#GraphViz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Trevis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2388,6 +2731,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Java3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -2401,6 +2749,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#GUITracer"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Java_6_using_AWT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Swing_or_SWT"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2433,6 +2791,21 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Swing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#TreeMap_Java_Library"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Grammatella"/>
         <NamedIndividual IRI="#Dense_pixel"/>
@@ -2461,6 +2834,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Prefuse_toolkit"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2501,6 +2879,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Ivis"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#OpenJDK_1.6.0_18_64bit"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2623,6 +3006,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Jsvee"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -2648,6 +3036,26 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#GraphViz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Qt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Kayrebt"/>
         <NamedIndividual IRI="#Stacked"/>
@@ -2663,6 +3071,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#Java3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#Stacked"/>
@@ -2676,6 +3089,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Linvis"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Flask"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Python"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2701,6 +3124,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Lumiere"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#C++"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2733,6 +3166,21 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#FLTK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#MemoView"/>
         <NamedIndividual IRI="#Dense_pixel"/>
@@ -2751,6 +3199,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Annotated_live_visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Pharo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Roassal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Smalltalk"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2793,6 +3256,26 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#FreeType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#wxWindows"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#MetricView"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -2806,6 +3289,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Java3D"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2831,6 +3319,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MosaiCode"/>
         <NamedIndividual IRI="#Software_metrics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Qt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#C++"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2868,6 +3366,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Paladir"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Paladir"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -2886,6 +3389,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Parceive"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2908,6 +3421,16 @@
         <NamedIndividual IRI="#Spreadsheet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Perquimans"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -2928,6 +3451,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Tcl/Tk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Standard"/>
@@ -2941,6 +3469,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Polytychon"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -2966,6 +3504,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#PortAssist"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Qt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#C++"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3011,6 +3564,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#RaceView"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Eclipse_Visualization_Toolkit"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3053,6 +3616,26 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#Graphisto_Toolkit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#Java_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#NetBeans_Visual_Library"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#abego_TreeLayout"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#SMNLV"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -3093,6 +3676,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Stencil_visualization_environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -3108,6 +3696,21 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Software_metrics"/>
+        <NamedIndividual IRI="#HProf"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Software_metrics"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Software_metrics"/>
+        <NamedIndividual IRI="#Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SolidFX"/>
         <NamedIndividual IRI="#Commercial"/>
@@ -3121,6 +3724,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SolidSDD"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#C++"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3156,6 +3774,26 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SolidSX"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#FTGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#GLUT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#wxWidgets"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3198,6 +3836,26 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#JFreeChart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#MT4j"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#OpenCloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -3228,6 +3886,16 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Eclipse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Iconic"/>
@@ -3241,6 +3909,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Streamsight"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Streamsight"/>
+        <NamedIndividual IRI="#dot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3288,6 +3961,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#CCJun"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#TraceCrawler"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -3301,6 +3979,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#TypeV"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#TypeScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3378,6 +4071,16 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#Vestige"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
@@ -3406,6 +4109,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#War_Room_Command_Console"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#C++"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3453,6 +4166,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#decluvi"/>
         <NamedIndividual IRI="#Dense_pixel"/>
@@ -3486,6 +4204,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#visSlice"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#D3.js"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -3523,6 +4251,21 @@
         <NamedIndividual IRI="#Spreadsheet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Control_FX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#GraphStream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Java_FX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
         <NamedIndividual IRI="#xViZit"/>
         <NamedIndividual IRI="#Standard"/>
@@ -3536,6 +4279,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#HTML5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
