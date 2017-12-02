@@ -115,6 +115,9 @@
         <Class IRI="#Task_abstraction"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Stacked"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Share_encoding"/>
     </Declaration>
     <Declaration>
@@ -247,6 +250,9 @@
         <NamedIndividual IRI="#Curvature"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Slice"/>
     </Declaration>
     <Declaration>
@@ -260,9 +266,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Action"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Roassal_3D_visualization_prototype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#History"/>
@@ -298,6 +301,9 @@
         <NamedIndividual IRI="#Revision_Towers"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#useRepresentation"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SeeTest"/>
     </Declaration>
     <Declaration>
@@ -326,6 +332,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tensor"/>
@@ -574,6 +583,9 @@
         <Class IRI="#Polices"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Table"/>
     </Declaration>
     <Declaration>
@@ -596,6 +608,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dense_pixel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MemoView"/>
@@ -686,6 +701,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Streamsight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iconic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rationale"/>
@@ -1809,8 +1827,38 @@
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Metrics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useVisualizationTechnique"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Histogram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useVisualizationTechnique"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useVisualizationTechnique"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#3D_matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1823,6 +1871,16 @@
         <NamedIndividual IRI="#Changes"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Blended_City"/>
         <NamedIndividual IRI="#3D_code_city"/>
@@ -1831,6 +1889,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1848,6 +1916,16 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#CVSgrab"/>
         <NamedIndividual IRI="#Custom"/>
@@ -1861,6 +1939,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CVSscan"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1878,6 +1961,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#3D_custom"/>
@@ -1886,6 +1974,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#ChronoTwigger"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1903,6 +1996,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Chronos"/>
         <NamedIndividual IRI="#Custom"/>
@@ -1911,6 +2009,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Code_Bubbles"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Code_Bubbles"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1933,6 +2036,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ConceptCloud"/>
         <NamedIndividual IRI="#Tag_cloud"/>
@@ -1941,6 +2049,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1953,6 +2066,16 @@
         <NamedIndividual IRI="#Database"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#DAHLIA"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#DAHLIA"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#DAHLIA"/>
         <NamedIndividual IRI="#3D_code_city"/>
@@ -1961,6 +2084,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#DEVis"/>
         <NamedIndividual IRI="#Documentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -1973,6 +2106,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Graph"/>
@@ -1981,6 +2119,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#ECCO"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2003,6 +2151,16 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#EPOSee"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#EPOSee"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#EPOSee"/>
         <NamedIndividual IRI="#Graph"/>
@@ -2016,6 +2174,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Evolve"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Evolve"/>
+        <NamedIndividual IRI="#Standard"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2043,6 +2206,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#FAN"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#FAN"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2053,6 +2221,16 @@
         <NamedIndividual IRI="#Documentation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Flatland"/>
         <NamedIndividual IRI="#3D_custom"/>
@@ -2061,6 +2239,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#FlyBy"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2073,6 +2256,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#3D_custom"/>
@@ -2081,6 +2269,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#GUITracer"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Standard"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2093,6 +2286,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Gevol"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Gevol"/>
         <NamedIndividual IRI="#Graph"/>
@@ -2101,6 +2299,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Grammatella"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2118,6 +2326,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Circular_tree"/>
@@ -2133,6 +2346,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
@@ -2143,6 +2366,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Ivis"/>
         <NamedIndividual IRI="#Matrix"/>
@@ -2151,6 +2379,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Jigsaw"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jigsaw"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jigsaw"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2183,6 +2421,16 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jive"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jive"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Jive"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2198,6 +2446,21 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jove"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jove"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jove"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Jove"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2206,6 +2469,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Jsvee"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Standard"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2218,6 +2491,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Kayrebt"/>
         <NamedIndividual IRI="#Graph"/>
@@ -2228,6 +2506,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#3D_graph"/>
@@ -2236,6 +2519,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Linvis"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2253,6 +2546,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Lumiere"/>
         <NamedIndividual IRI="#Charts"/>
@@ -2268,6 +2571,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MemoView"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2281,6 +2589,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Annotated_live_visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2308,6 +2626,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MetricView"/>
         <NamedIndividual IRI="#3D_graph"/>
@@ -2316,6 +2639,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Standard"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2328,6 +2656,11 @@
         <NamedIndividual IRI="#Software_metrics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MosaiCode"/>
         <NamedIndividual IRI="#Matrix"/>
@@ -2338,6 +2671,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#NosePrints"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#NosePrints"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2346,6 +2684,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Paladir"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Paladir"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2363,6 +2706,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Parceive"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
@@ -2378,6 +2726,11 @@
         <NamedIndividual IRI="#Spreadsheet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Perquimans"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
@@ -2388,6 +2741,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2396,6 +2754,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Polytychon"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2418,6 +2781,16 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#PortAssist"/>
         <NamedIndividual IRI="#HEB"/>
@@ -2433,6 +2806,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Tree"/>
@@ -2441,6 +2819,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#RaceView"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2453,34 +2836,24 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Revision_Towers"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Revision_Towers"/>
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
-        <NamedIndividual IRI="#Roassal_3D_visualization_prototype"/>
-        <NamedIndividual IRI="#Metrics"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useVisualizationTechnique"/>
-        <NamedIndividual IRI="#Roassal_3D_visualization_prototype"/>
-        <NamedIndividual IRI="#Histogram"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useVisualizationTechnique"/>
-        <NamedIndividual IRI="#Roassal_3D_visualization_prototype"/>
-        <NamedIndividual IRI="#Matrix"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useVisualizationTechnique"/>
-        <NamedIndividual IRI="#Roassal_3D_visualization_prototype"/>
-        <NamedIndividual IRI="#3D_matrix"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SMNLV"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2493,6 +2866,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SYNCTRACE"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SYNCTRACE"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SYNCTRACE"/>
         <NamedIndividual IRI="#Icicle_tree"/>
@@ -2503,6 +2886,16 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2511,6 +2904,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SolidSDD"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2533,6 +2941,21 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SolidSX"/>
         <NamedIndividual IRI="#HEB"/>
@@ -2558,6 +2981,16 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Charts"/>
@@ -2573,6 +3006,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Glyph"/>
@@ -2581,6 +3019,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Streamsight"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Streamsight"/>
+        <NamedIndividual IRI="#Standard"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2598,6 +3041,16 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#System_Radiography"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#System_Radiography"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#System_Radiography"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2613,6 +3066,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#TraceCrawler"/>
         <NamedIndividual IRI="#3D_graph"/>
@@ -2621,6 +3079,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#TypeV"/>
         <NamedIndividual IRI="#Version_control_system"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2636,6 +3099,21 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#VERSO"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#VERSO"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#VERSO"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#VERSO"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2658,6 +3136,11 @@
         <NamedIndividual IRI="#Documentation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Vampir"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Vampir"/>
         <NamedIndividual IRI="#Pixel-based"/>
@@ -2666,6 +3149,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Vestige"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2683,6 +3171,11 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#War_Room_Command_Console"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2691,6 +3184,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Zinsight"/>
         <NamedIndividual IRI="#Runtime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#Zinsight"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2713,6 +3211,11 @@
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#decluvi"/>
         <NamedIndividual IRI="#Heatmap"/>
@@ -2728,6 +3231,11 @@
         <NamedIndividual IRI="#Runtime"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#jGrasp"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#jGrasp"/>
         <NamedIndividual IRI="#Custom"/>
@@ -2736,6 +3244,16 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#visSlice"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
@@ -2753,6 +3271,11 @@
         <NamedIndividual IRI="#Spreadsheet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#xViZit"/>
         <NamedIndividual IRI="#Matrix"/>
@@ -2761,6 +3284,11 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Source_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useRepresentation"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
