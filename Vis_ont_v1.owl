@@ -265,6 +265,9 @@
         <Class IRI="#Element_relationship"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Seesoft"/>
     </Declaration>
     <Declaration>
@@ -556,13 +559,13 @@
         <NamedIndividual IRI="#SAB"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Superimpose"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Runtime"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bytecode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Superimpose"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JFreeChart"/>
@@ -2113,6 +2116,26 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
         <NamedIndividual IRI="#Metrics"/>
@@ -2153,6 +2176,21 @@
         <NamedIndividual IRI="#3D_matrix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -2186,6 +2224,21 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Beat"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2228,6 +2281,26 @@
         <NamedIndividual IRI="#GPLv2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -2261,6 +2334,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2308,6 +2386,21 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#CVSscan"/>
         <NamedIndividual IRI="#Free"/>
@@ -2353,6 +2446,16 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -2371,6 +2474,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#3D_custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2406,6 +2529,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ChronoTwigger"/>
         <NamedIndividual IRI="#Scatter-plot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2453,6 +2586,16 @@
         <NamedIndividual IRI="#Tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#ConceptCloud"/>
         <NamedIndividual IRI="#Version_control_system"/>
@@ -2471,6 +2614,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ConceptCloud"/>
         <NamedIndividual IRI="#Tag_cloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2513,6 +2666,16 @@
         <NamedIndividual IRI="#3D_code_city"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#DEVis"/>
         <NamedIndividual IRI="#Documentation"/>
@@ -2543,6 +2706,16 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -2566,6 +2739,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2693,6 +2881,16 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Flatland"/>
         <NamedIndividual IRI="#Documentation"/>
@@ -2716,6 +2914,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Flatland"/>
         <NamedIndividual IRI="#3D_custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2748,6 +2961,21 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -2766,6 +2994,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#3D_custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2806,6 +3054,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Gevol"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2853,6 +3111,16 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -2896,6 +3164,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3023,6 +3306,21 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Jsvee"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -3051,6 +3349,26 @@
         <ObjectProperty IRI="#hasSource"/>
         <NamedIndividual IRI="#Kayrebt"/>
         <NamedIndividual IRI="#Source_available"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3093,6 +3411,16 @@
         <NamedIndividual IRI="#Graph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -3111,6 +3439,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#3D_graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3146,6 +3484,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Linvis"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3188,6 +3546,16 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MemoView"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -3221,6 +3589,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MemoView"/>
         <NamedIndividual IRI="#Pixel-based"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3261,6 +3634,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Tag_cloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3313,6 +3701,16 @@
         <NamedIndividual IRI="#3D_graph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -3341,6 +3739,21 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Mondrian"/>
         <NamedIndividual IRI="#MIT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3388,6 +3801,11 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Paladir"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Paladir"/>
         <NamedIndividual IRI="#Version_control_system"/>
@@ -3406,6 +3824,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Paladir"/>
         <NamedIndividual IRI="#Glyph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3443,6 +3876,21 @@
         <NamedIndividual IRI="#Icicle_tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Perquimans"/>
         <NamedIndividual IRI="#Spreadsheet"/>
@@ -3473,6 +3921,26 @@
         <NamedIndividual IRI="#Source_available"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Free"/>
@@ -3496,6 +3964,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Polytychon"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3526,6 +4009,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Polytychon"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3578,6 +4071,21 @@
         <NamedIndividual IRI="#Source_available"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Free"/>
@@ -3596,6 +4104,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3646,6 +4174,11 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SAB"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3708,6 +4241,26 @@
         <NamedIndividual IRI="#Icicle_tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Version_control_system"/>
@@ -3753,6 +4306,21 @@
         <NamedIndividual IRI="#Commercial"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SolidSDD"/>
         <NamedIndividual IRI="#Commercial"/>
@@ -3796,6 +4364,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SolidSDD"/>
         <NamedIndividual IRI="#HEB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3868,6 +4446,16 @@
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -3918,6 +4506,21 @@
         <NamedIndividual IRI="#Source_available"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Free"/>
@@ -3946,6 +4549,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Glyph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Streamsight"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Streamsight"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3998,6 +4611,26 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#TraceCrawler"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -4016,6 +4649,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#TraceCrawler"/>
         <NamedIndividual IRI="#3D_graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -4108,6 +4761,21 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Vestige"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -4141,6 +4809,11 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Vizz3D"/>
         <NamedIndividual IRI="#GPL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -4198,6 +4871,21 @@
         <NamedIndividual IRI="#Tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#decluvi"/>
         <NamedIndividual IRI="#Program_slice"/>
@@ -4243,6 +4931,26 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Understanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#visSlice"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -4283,6 +4991,21 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#Questioning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#xViZit"/>
         <NamedIndividual IRI="#Free"/>
@@ -4316,6 +5039,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#xViZit"/>
         <NamedIndividual IRI="#Matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Building"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Finding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubject-Oriented"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
