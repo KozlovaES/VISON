@@ -25,6 +25,9 @@
         <NamedIndividual IRI="#MetaVis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#New_Linux_kernel_developer"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Contracts"/>
     </Declaration>
     <Declaration>
@@ -43,10 +46,10 @@
         <Class IRI="#Cyclic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GEM"/>
+        <Class IRI="#Dynamic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dynamic"/>
+        <NamedIndividual IRI="#GEM"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Heapviz"/>
@@ -55,7 +58,13 @@
         <NamedIndividual IRI="#Vampir"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Team_manager"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Play_web_framework"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Practitioner"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Polymetric_views"/>
@@ -67,10 +76,10 @@
         <NamedIndividual IRI="#Maintenance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Length"/>
+        <NamedIndividual IRI="#jGrasp"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#jGrasp"/>
+        <NamedIndividual IRI="#Length"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Method_properties"/>
@@ -89,6 +98,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Blended_City"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Architect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Identify"/>
@@ -118,19 +133,22 @@
         <NamedIndividual IRI="#Flatland"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#MetricView"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Analyze"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Architecture"/>
+        <NamedIndividual IRI="#Technical_lead"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#affects"/>
@@ -139,10 +157,10 @@
         <NamedIndividual IRI="#Implications"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#CCJun"/>
+        <Class IRI="#Questioning"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Questioning"/>
+        <NamedIndividual IRI="#CCJun"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Matrix_software_visualisation_framework"/>
@@ -172,10 +190,10 @@
         <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Commercial"/>
+        <NamedIndividual IRI="#G4P"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#G4P"/>
+        <NamedIndividual IRI="#Commercial"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Type_relationships"/>
@@ -184,46 +202,49 @@
         <Class IRI="#Feature"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Java_8"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Technique"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGG"/>
+        <NamedIndividual IRI="#Java_8"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SourceVis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#One"/>
+        <NamedIndividual IRI="#AGG"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Action"/>
+        <Class IRI="#One"/>
     </Declaration>
     <Declaration>
         <Class IRI="#History"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Network_data"/>
+        <Class IRI="#Action"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Control_flow"/>
+        <Class IRI="#Network_data"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tree"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Control_flow"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spreadsheet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Project_manager"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Source_code"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Revision_Towers"/>
+        <NamedIndividual IRI="#Control_FX"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Control_FX"/>
+        <NamedIndividual IRI="#Revision_Towers"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SeeTest"/>
@@ -262,10 +283,10 @@
         <NamedIndividual IRI="#Geometrically-Transformed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Browse"/>
+        <Class IRI="#All"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#All"/>
+        <Class IRI="#Browse"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Software_Process_Management"/>
@@ -289,19 +310,19 @@
         <NamedIndividual IRI="#visSlice"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OS"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <Class IRI="#OS"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#System_Radiography"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#TreeMap_Java_Library"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TreeMap_Java_Library"/>
+        <NamedIndividual IRI="#ProfVis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cluster"/>
@@ -310,10 +331,10 @@
         <NamedIndividual IRI="#SolidFX"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#C++"/>
+        <Class IRI="#Map"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#C++"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Contracts"/>
@@ -343,10 +364,10 @@
         <NamedIndividual IRI="#SAB"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bytecode"/>
+        <NamedIndividual IRI="#Runtime"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Runtime"/>
+        <NamedIndividual IRI="#Bytecode"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JFreeChart"/>
@@ -376,6 +397,9 @@
         <NamedIndividual IRI="#Tag_cloud"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Student"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OpenCloud"/>
     </Declaration>
     <Declaration>
@@ -391,6 +415,9 @@
         <Class IRI="#Domain"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Reviewer"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ConceptCloud"/>
     </Declaration>
     <Declaration>
@@ -401,6 +428,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Target_attribute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lead_developer"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Concurrency"/>
@@ -427,6 +457,9 @@
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Align"/>
     </Declaration>
     <Declaration>
@@ -451,10 +484,10 @@
         <Class IRI="#Polices"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FAN"/>
+        <Class IRI="#Table"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#FAN"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Web_service"/>
@@ -532,10 +565,10 @@
         <Class IRI="#Ordering_direction"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#JavaScript"/>
+        <NamedIndividual IRI="#C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#C"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sequential"/>
@@ -556,31 +589,37 @@
         <NamedIndividual IRI="#Iconic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Spartial_region"/>
+        <NamedIndividual IRI="#GraphStream"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Express"/>
+        <NamedIndividual IRI="#Spartial_region"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rationale"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GraphStream"/>
+        <Class IRI="#Express"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Trend"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#usedBy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Linvis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Information_worker"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Use"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Flask"/>
+        <Class IRI="#Diverging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Diverging"/>
+        <NamedIndividual IRI="#Flask"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Graph"/>
@@ -607,13 +646,16 @@
         <NamedIndividual IRI="#Lumiere"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#DAHLIA"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Distort_geometry"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DAHLIA"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Problem-oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Test_manager"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Produce"/>
@@ -667,10 +709,10 @@
         <Class IRI="#List"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#abego_TreeLayout"/>
+        <Class IRI="#Building"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Building"/>
+        <NamedIndividual IRI="#abego_TreeLayout"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Elide_deta"/>
@@ -688,10 +730,10 @@
         <NamedIndividual IRI="#Ivis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#dot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#dot"/>
+        <NamedIndividual IRI="#SMNLV"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jove"/>
@@ -712,10 +754,10 @@
         <Class IRI="#Ordered"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#People"/>
+        <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data_type"/>
+        <NamedIndividual IRI="#People"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Superimpose_layer"/>
@@ -736,16 +778,19 @@
         <NamedIndividual IRI="#Mondrian"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Testing"/>
+        <Class IRI="#Implementing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Implementing"/>
+        <NamedIndividual IRI="#Testing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GENISOM"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Atropos"/>
@@ -781,10 +826,10 @@
         <NamedIndividual IRI="#Jigsaw"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aggregate"/>
+        <NamedIndividual IRI="#Histogram"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Histogram"/>
+        <Class IRI="#Aggregate"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAttribute"/>
@@ -799,6 +844,9 @@
         <Class IRI="#Share_encoding"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Software_architect"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Treemap"/>
     </Declaration>
     <Declaration>
@@ -811,10 +859,10 @@
         <NamedIndividual IRI="#Test"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Path"/>
+        <NamedIndividual IRI="#Rigi"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rigi"/>
+        <Class IRI="#Path"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BSD"/>
@@ -826,16 +874,16 @@
         <Class IRI="#Compare"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VisMOOS"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#wxWindows"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Same"/>
+        <NamedIndividual IRI="#VisMOOS"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Element_relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Same"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSubject-Oriented"/>
@@ -845,6 +893,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TypeV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tester"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gevol"/>
@@ -859,16 +910,22 @@
         <Class IRI="#Locate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Stand-alone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#URL"/>
+        <NamedIndividual IRI="#Engineer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tool"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Custom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analyst"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Curvature"/>
@@ -884,6 +941,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Refactoring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quality_assurance_engineer"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MosaiCode"/>
@@ -907,6 +967,9 @@
         <Class IRI="#Embed"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Maintainer"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Area"/>
     </Declaration>
     <Declaration>
@@ -920,6 +983,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Service-oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Designer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Arrange"/>
@@ -937,16 +1003,16 @@
         <NamedIndividual IRI="#3D_graph"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pixel-based"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Programming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#All_data"/>
+        <NamedIndividual IRI="#Pixel-based"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Icicle_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Navigate"/>
@@ -968,6 +1034,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MIT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advanced_user"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OpenGL"/>
@@ -997,6 +1066,9 @@
         <Class IRI="#Item_reduction"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#New_team_members"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Explore"/>
     </Declaration>
     <Declaration>
@@ -1006,10 +1078,10 @@
         <NamedIndividual IRI="#Bug_tracking_system"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Understanding"/>
+        <NamedIndividual IRI="#History"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#History"/>
+        <Class IRI="#Understanding"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Java"/>
@@ -1033,16 +1105,19 @@
         <NamedIndividual IRI="#Processing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Many"/>
+        <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Discover"/>
+        <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Chronos"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leader"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dependency"/>
@@ -1072,6 +1147,9 @@
         <NamedIndividual IRI="#Intent_and_implication"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bug_triager"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Standard"/>
     </Declaration>
     <Declaration>
@@ -1090,10 +1168,10 @@
         <Class IRI="#Process-oriented"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Spatial_data"/>
+        <NamedIndividual IRI="#Data_flow"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Data_flow"/>
+        <Class IRI="#Spatial_data"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Parallel_coordinates"/>
@@ -1105,6 +1183,9 @@
         <NamedIndividual IRI="#CSI"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Software_manager"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#3D_custom"/>
     </Declaration>
     <Declaration>
@@ -1114,13 +1195,16 @@
         <NamedIndividual IRI="#Java_6_using_AWT"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Position"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Heatmap"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#VERSO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programmer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Teammates"/>
@@ -1147,10 +1231,13 @@
         <ObjectProperty IRI="#carryOutTask"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Query"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Smalltalk"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Query"/>
+        <NamedIndividual IRI="#Researcher"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RaceView"/>
@@ -1204,10 +1291,10 @@
         <NamedIndividual IRI="#Kayrebt"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#FreeType"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FreeType"/>
+        <NamedIndividual IRI="#GUITracer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Refactoring"/>
@@ -2300,6 +2387,16 @@
         <NamedIndividual IRI="#3D_matrix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Analyst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -2373,6 +2470,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Student"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -2450,6 +2552,11 @@
         <NamedIndividual IRI="#3D_code_city"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#CHIVE"/>
         <NamedIndividual IRI="#GPLv2"/>
@@ -2518,6 +2625,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -2680,6 +2792,36 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Architect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Maintainer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#New_team_members"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Project_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#Tester"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -2718,6 +2860,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#3D_custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -2795,6 +2942,16 @@
         <NamedIndividual IRI="#Scatter-plot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Project_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#Test_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Chronos"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -2843,6 +3000,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Chronos"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -2925,6 +3087,16 @@
         <NamedIndividual IRI="#Tag_cloud"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Team_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -2973,6 +3145,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Project_manager"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3050,6 +3232,16 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#Software_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Programming"/>
@@ -3088,6 +3280,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -3168,6 +3365,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ECCO"/>
         <NamedIndividual IRI="#Horizontal_line"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Engineer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3295,6 +3507,11 @@
         <NamedIndividual IRI="#3D_custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#FlyBy"/>
         <NamedIndividual IRI="#Testing"/>
@@ -3343,6 +3560,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#FlyBy"/>
         <NamedIndividual IRI="#Sunburst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3398,6 +3620,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#3D_custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -3463,6 +3690,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#GUITracer"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Practitioner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Student"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3540,6 +3777,16 @@
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Maintainer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Graph_Works"/>
         <NamedIndividual IRI="#Free"/>
@@ -3588,6 +3835,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Programmer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -3653,6 +3905,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Ivis"/>
         <NamedIndividual IRI="#Matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3810,6 +4067,16 @@
         <NamedIndividual IRI="#Glyph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Kayrebt"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -3880,6 +4147,16 @@
         <NamedIndividual IRI="#Graph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Advanced_user"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#New_Linux_kernel_developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -3923,6 +4200,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#3D_graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#Researcher"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -3973,6 +4255,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Linvis"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -4060,6 +4347,11 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Marama_Torua"/>
         <NamedIndividual IRI="#Free"/>
@@ -4125,6 +4417,11 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Programming"/>
@@ -4178,6 +4475,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Tag_cloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -4260,6 +4562,16 @@
         <NamedIndividual IRI="#3D_graph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Architect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Dependencies"/>
@@ -4293,6 +4605,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -4383,6 +4700,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MosaiCode"/>
         <NamedIndividual IRI="#Matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Project_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Software_architect"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -4505,6 +4837,16 @@
         <NamedIndividual IRI="#Icicle_tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Architect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Perquimans"/>
         <NamedIndividual IRI="#Programming"/>
@@ -4575,6 +4917,16 @@
         <NamedIndividual IRI="#Horizontal_tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Practitioner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Researcher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Programming"/>
@@ -4635,6 +4987,11 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Polyptychon"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -4693,6 +5050,16 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Polyptychon"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Polyptychon"/>
+        <NamedIndividual IRI="#Architect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Polyptychon"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -4765,6 +5132,16 @@
         <NamedIndividual IRI="#Table_lens"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Lead_developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -4813,6 +5190,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -4873,6 +5255,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#RaceView"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Quality_assurance_engineer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -4970,6 +5357,11 @@
         <NamedIndividual IRI="#Tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
         <NamedIndividual IRI="#MIT"/>
@@ -5058,6 +5450,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
@@ -5160,6 +5557,16 @@
         <NamedIndividual IRI="#HEB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Architect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SolidSX"/>
         <NamedIndividual IRI="#Maintenance"/>
@@ -5260,6 +5667,16 @@
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Lead_developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Maintenance"/>
@@ -5328,6 +5745,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Polymetric_views"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -5400,6 +5822,16 @@
         <NamedIndividual IRI="#Glyph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Information_worker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Streamsight"/>
         <NamedIndividual IRI="#Testing"/>
@@ -5448,6 +5880,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Streamsight"/>
         <NamedIndividual IRI="#Graph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Streamsight"/>
+        <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -5535,6 +5972,16 @@
         <NamedIndividual IRI="#3D_graph"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TraceCrawler"/>
+        <NamedIndividual IRI="#Engineer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#TypeV"/>
         <NamedIndividual IRI="#Maintenance"/>
@@ -5618,6 +6065,26 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#TypeV"/>
         <NamedIndividual IRI="#Histogram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Bug_triager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Project_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#TypeV"/>
+        <NamedIndividual IRI="#Researcher"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -5740,6 +6207,11 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#VisMOOS"/>
         <NamedIndividual IRI="#Free"/>
@@ -5793,6 +6265,21 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#War_Room_Command_Console"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Project_manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#Technical_lead"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -5905,6 +6392,11 @@
         <NamedIndividual IRI="#Seesoft"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Engineer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#jGrasp"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -5990,6 +6482,26 @@
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Analyst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#Maintainer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#xDIVA"/>
         <NamedIndividual IRI="#Free"/>
@@ -6060,6 +6572,11 @@
         <NamedIndividual IRI="#Matrix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Programming"/>
@@ -6113,6 +6630,36 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Glyph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Designer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Leader"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Manager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Reviewer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Tester"/>
     </ObjectPropertyAssertion>
     <NegativeObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
