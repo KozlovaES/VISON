@@ -55,6 +55,9 @@
         <NamedIndividual IRI="#Heapviz"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Framework"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Vampir"/>
     </Declaration>
     <Declaration>
@@ -91,6 +94,9 @@
         <Class IRI="#Manipulate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Task_abstraction"/>
     </Declaration>
     <Declaration>
@@ -107,9 +113,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Identify"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Swing_or_SWT"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Matrix"/>
@@ -145,10 +148,10 @@
         <NamedIndividual IRI="#Technical_lead"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#affects"/>
+        <NamedIndividual IRI="#Implications"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Implications"/>
+        <ObjectProperty IRI="#affects"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CCJun"/>
@@ -175,16 +178,13 @@
         <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#G4P"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Commercial"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#G4P"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Java_8"/>
+        <Class IRI="#Feature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Technique"/>
@@ -229,9 +229,6 @@
         <NamedIndividual IRI="#SeeTest"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Annotated_live_visualization"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Horizontal_tree"/>
     </Declaration>
     <Declaration>
@@ -260,6 +257,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#All"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Live_objects"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Software_Process_Management"/>
@@ -421,6 +421,9 @@
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SWT"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Developer"/>
     </Declaration>
     <Declaration>
@@ -442,10 +445,10 @@
         <NamedIndividual IRI="#ECCO"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#FAN"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FAN"/>
+        <Class IRI="#Table"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shape"/>
@@ -455,9 +458,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#None"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GPLv2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zoom"/>
@@ -497,9 +497,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Proprietary"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#All_rights_reserved"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Reduce"/>
@@ -745,6 +742,9 @@
         <NamedIndividual IRI="#Java_FX"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Representation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#underLicense"/>
     </Declaration>
     <Declaration>
@@ -901,10 +901,10 @@
         <NamedIndividual IRI="#Maintainer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Area"/>
+        <Class IRI="#Tensor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tensor"/>
+        <NamedIndividual IRI="#Area"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Build"/>
@@ -958,6 +958,9 @@
         <Class IRI="#Superimpose"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AWT"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#MIT"/>
     </Declaration>
     <Declaration>
@@ -998,9 +1001,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Explore"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Eclipse"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bug_tracking_system"/>
@@ -1115,9 +1115,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Teammates"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Java_6_using_AWT"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Position"/>
@@ -1322,6 +1319,10 @@
     <SubClassOf>
         <Class IRI="#Changes"/>
         <Class IRI="#Problem-oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cluster"/>
@@ -1601,6 +1602,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reduce"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Representation"/>
         <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
@@ -1887,15 +1892,14 @@
         <Class IRI="#URL"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Problem-oriented"/>
-        <Class IRI="#Process-oriented"/>
-        <Class IRI="#Service-oriented"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Share_data"/>
         <Class IRI="#Share_encoding"/>
         <Class IRI="#Share_navigation"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#AWT"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
@@ -1919,6 +1923,10 @@
     <ClassAssertion>
         <Class IRI="#Ordinal"/>
         <NamedIndividual IRI="#Angle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Apache_Commons_Byte_Code_Engineering_Library"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -1953,12 +1961,20 @@
         <NamedIndividual IRI="#Beat"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Binary"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Blended_City"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Blended_City"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Bug_tracking_system"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -1969,6 +1985,10 @@
         <NamedIndividual IRI="#Build"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Build_rules"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Changes"/>
         <NamedIndividual IRI="#Building"/>
     </ClassAssertion>
@@ -1977,6 +1997,18 @@
         <NamedIndividual IRI="#Building"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Bytecode"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#CCJun"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#CHIVE"/>
     </ClassAssertion>
@@ -2017,6 +2049,14 @@
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Dynamic"/>
+        <NamedIndividual IRI="#Changes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Charts"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#ChronoTwigger"/>
     </ClassAssertion>
@@ -2031,6 +2071,14 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Chronos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Circular_tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Circular_treemap"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Service-oriented"/>
@@ -2043,6 +2091,10 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Code_Bubbles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Elements"/>
+        <NamedIndividual IRI="#Code_Quality"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Map"/>
@@ -2081,6 +2133,10 @@
         <NamedIndividual IRI="#Constraine"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Control_FX"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Element_relationship"/>
         <NamedIndividual IRI="#Control_flow"/>
     </ClassAssertion>
@@ -2101,8 +2157,16 @@
         <NamedIndividual IRI="#Curvature"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Custom"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Atribute_reduction"/>
         <NamedIndividual IRI="#Cut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#D3.js"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2133,8 +2197,16 @@
         <NamedIndividual IRI="#Data_flow"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Dynamic"/>
+        <NamedIndividual IRI="#Database"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Changes"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#Dense_pixel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Element_relationship"/>
@@ -2173,10 +2245,18 @@
         <NamedIndividual IRI="#EPOSee"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Eclipse_Visualization_Toolkit"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#Engineer"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Evolution_Comprehension_for_Maintenance"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Evolve"/>
     </ClassAssertion>
@@ -2199,10 +2279,22 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#FAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#FLTK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#FTGL"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Process-oriented"/>
         <NamedIndividual IRI="#Finding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Flask"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2225,6 +2317,14 @@
         <NamedIndividual IRI="#Free"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#FreeType"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#G4P"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#GEM"/>
     </ClassAssertion>
@@ -2239,16 +2339,16 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#GENISOM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#GLUT"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Free"/>
         <NamedIndividual IRI="#GPL"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Free"/>
-        <NamedIndividual IRI="#GPLv2"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#GUITracer"/>
     </ClassAssertion>
@@ -2257,12 +2357,20 @@
         <NamedIndividual IRI="#GUITracer"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#Geometrically-Transformed"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Gevol"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Gevol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Glyph"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2277,6 +2385,14 @@
         <NamedIndividual IRI="#Graph"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#GraphStream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#GraphViz"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Graph_Works"/>
     </ClassAssertion>
@@ -2285,19 +2401,47 @@
         <NamedIndividual IRI="#Graph_Works"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Graphisto_Toolkit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#HEB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#HTML5"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Heapviz"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Heapviz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Heatmap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Histogram"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Changes"/>
         <NamedIndividual IRI="#History"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Horizontal_line"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Network"/>
+        <NamedIndividual IRI="#Horizontal_tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2307,6 +2451,14 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#Iconic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Iconic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Changes"/>
@@ -2331,6 +2483,22 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Ivis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#JFreeChart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Java_FX"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2401,6 +2569,10 @@
         <NamedIndividual IRI="#Linvis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Live_objects"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Elements"/>
         <NamedIndividual IRI="#Location"/>
     </ClassAssertion>
@@ -2417,8 +2589,16 @@
         <NamedIndividual IRI="#MIT"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#MT4j"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#Maintainer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Maintenance"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -2431,6 +2611,14 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Marama_Torua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Matrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Matrix_software_visualisation_framework"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2459,6 +2647,10 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#MetricView"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Metrics"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2505,6 +2697,10 @@
         <NamedIndividual IRI="#Navigate"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#NetBeans_Visual_Library"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#New_Linux_kernel_developer"/>
     </ClassAssertion>
@@ -2521,12 +2717,28 @@
         <NamedIndividual IRI="#NosePrints"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#OpenCloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#OpenGL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#OpenJDK_1.6.0_18_64bit"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Paladir"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Paladir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Parallel_coordinates"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2541,6 +2753,10 @@
         <NamedIndividual IRI="#People"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Perfective_Maintenance"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Elements"/>
         <NamedIndividual IRI="#Performance"/>
     </ClassAssertion>
@@ -2553,12 +2769,28 @@
         <NamedIndividual IRI="#Perquimans"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Pharo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Pixel-based"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#PlanAni"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#PlanAni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Play_web_framework"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Polymetric_views"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2585,12 +2817,20 @@
         <NamedIndividual IRI="#Practitioner"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Prefuse_toolkit"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#ProfVis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#ProfVis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Static"/>
+        <NamedIndividual IRI="#Program_slice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -2603,6 +2843,14 @@
     <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#Project_manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Qt"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -2629,6 +2877,10 @@
         <NamedIndividual IRI="#Researcher"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#Reviewer"/>
     </ClassAssertion>
@@ -2647,6 +2899,14 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Rigi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Roassal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Roassal3D"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Dynamic"/>
@@ -2677,6 +2937,10 @@
         <NamedIndividual IRI="#SPIDER_SENSE"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#SWT"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#SYNCTRACE"/>
     </ClassAssertion>
@@ -2685,12 +2949,20 @@
         <NamedIndividual IRI="#SYNCTRACE"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Scatter-plot"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#SeeTest"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#SeeTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Seesoft"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Categorical"/>
@@ -2711,6 +2983,18 @@
     <ClassAssertion>
         <Class IRI="#Atribute_reduction"/>
         <NamedIndividual IRI="#Slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Smalltalk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Software_Comprehension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service-oriented"/>
+        <NamedIndividual IRI="#Software_Process_Management"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -2769,12 +3053,24 @@
         <NamedIndividual IRI="#Spreadsheet"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#Stacked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#Standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Stencil_visualization_environment"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2789,12 +3085,28 @@
         <NamedIndividual IRI="#Student"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Sunburst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Swing"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#System_Radiography"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#System_Radiography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Table_lens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Tag_cloud"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Audience"/>
@@ -2837,6 +3149,22 @@
         <NamedIndividual IRI="#Tree"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#TreeMap_Java_Library"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#Treemap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Trevis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#TypeScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#TypeV"/>
     </ClassAssertion>
@@ -2871,6 +3199,10 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#VERSO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#VR_Juggler"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2933,12 +3265,20 @@
         <NamedIndividual IRI="#Zoom"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#abego_TreeLayout"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#decluvi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#decluvi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#dot"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2949,12 +3289,24 @@
         <NamedIndividual IRI="#jGrasp"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#jMonkeyEngine"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#visSlice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#visSlice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#wxWidgets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#wxWindows"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
@@ -2971,18 +3323,38 @@
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#xViZit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#yFiles_library"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#3D_code_city"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Network"/>
         <NamedIndividual IRI="#3D_graph"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Representation"/>
+        <NamedIndividual IRI="#3D_matrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Framework"/>
+        <NamedIndividual IRI="#Tcl/Tk"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -3247,7 +3619,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#CHIVE"/>
-        <NamedIndividual IRI="#GPLv2"/>
+        <NamedIndividual IRI="#GPL"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -4362,12 +4734,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
         <NamedIndividual IRI="#GUITracer"/>
-        <NamedIndividual IRI="#Java_6_using_AWT"/>
+        <NamedIndividual IRI="#AWT"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
         <NamedIndividual IRI="#GUITracer"/>
-        <NamedIndividual IRI="#Swing_or_SWT"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#SWT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Swing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
@@ -4797,7 +5179,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Kayrebt"/>
-        <NamedIndividual IRI="#All_rights_reserved"/>
+        <NamedIndividual IRI="#Commercial"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -5127,7 +5509,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#MetaVis"/>
-        <NamedIndividual IRI="#Annotated_live_visualization"/>
+        <NamedIndividual IRI="#Live_objects"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
@@ -5407,7 +5789,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Mr.Clean"/>
-        <NamedIndividual IRI="#All_rights_reserved"/>
+        <NamedIndividual IRI="#Commercial"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -6022,11 +6404,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
         <NamedIndividual IRI="#SMNLV"/>
-        <NamedIndividual IRI="#Java_8"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useFramework"/>
-        <NamedIndividual IRI="#SMNLV"/>
         <NamedIndividual IRI="#NetBeans_Visual_Library"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -6143,6 +6520,11 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#useFramework"/>
+        <NamedIndividual IRI="#Software_Comprehension"/>
+        <NamedIndividual IRI="#Java"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
@@ -6488,11 +6870,6 @@
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Source_code"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#useFramework"/>
-        <NamedIndividual IRI="#Stench_Blossom"/>
-        <NamedIndividual IRI="#Eclipse"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
