@@ -19,7 +19,13 @@
         <Class IRI="#Record"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Topology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MetaVis"/>
@@ -40,22 +46,31 @@
         <NamedIndividual IRI="#wxWidgets"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Revision_Towers_article_title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DAHLIA_2.0:_A_Visual_Analyzer_of_Database_Usage_in_Dynamic_and_Heterogeneous_Systems"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Explora"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cyclic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GEM"/>
+        <Class IRI="#Dynamic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dynamic"/>
+        <NamedIndividual IRI="#GEM"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Heapviz"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Framework"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vampir"/>
@@ -67,10 +82,13 @@
         <NamedIndividual IRI="#Play_web_framework"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Polymetric_views"/>
+        <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Practitioner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polymetric_views"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Elements"/>
@@ -79,10 +97,10 @@
         <NamedIndividual IRI="#Maintenance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Length"/>
+        <NamedIndividual IRI="#jGrasp"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#jGrasp"/>
+        <NamedIndividual IRI="#Length"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Method_properties"/>
@@ -101,6 +119,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stacked"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_Exploration_of_Combined_Architectural_and_Metric_Information"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Blended_City"/>
@@ -127,10 +148,16 @@
         <NamedIndividual IRI="#TraceCrawler"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SAB_-_The_Software_Architecture_Browser"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Subset"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Share_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XVIZIT:_Visualizing_Cognitive_Units_in_Spreadsheets"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Flatland"/>
@@ -142,16 +169,22 @@
         <NamedIndividual IRI="#MetricView"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Critical_Section_Investigator:_Building_Story_Visualizations_with_Program_Traces"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Analyze"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Technical_lead"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Implications"/>
+        <ObjectProperty IRI="#affects"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#affects"/>
+        <NamedIndividual IRI="#Implications"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CCJun"/>
@@ -163,10 +196,16 @@
         <NamedIndividual IRI="#TypeScript"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#xDIVA:_automatic_animation_between_debugging_break_points"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Charts"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Eclipse_Visualization_Toolkit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Beat"/>
@@ -178,10 +217,16 @@
         <NamedIndividual IRI="#Volume"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Commercial"/>
+        <NamedIndividual IRI="#Vestige:_A_Visualization_Framework_for_Engineering_Geometry-Related_Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#G4P"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evolutionary_layout:_preserving_the_mental_map_during_the_development_of_class_models"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Feature"/>
@@ -190,10 +235,10 @@
         <Class IRI="#Technique"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGG"/>
+        <NamedIndividual IRI="#SourceVis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#AGG"/>
     </Declaration>
     <Declaration>
         <Class IRI="#One"/>
@@ -220,10 +265,10 @@
         <NamedIndividual IRI="#Source_code"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Revision_Towers"/>
+        <NamedIndividual IRI="#Control_FX"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Control_FX"/>
+        <NamedIndividual IRI="#Revision_Towers"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SeeTest"/>
@@ -232,7 +277,13 @@
         <NamedIndividual IRI="#Horizontal_tree"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#xDIVA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasAttendedBy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Source_available"/>
@@ -253,13 +304,19 @@
         <NamedIndividual IRI="#Geometrically-Transformed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Browse"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#All"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SPIDER_SENSE:_Software-Engineering,_Networked,_System_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Browse"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Live_objects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3D_visualisation_of_code_structures_in_Java_software_systems"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Software_Process_Management"/>
@@ -283,6 +340,9 @@
         <NamedIndividual IRI="#visSlice"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_visualizations_of_code_bubbles"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OS"/>
     </Declaration>
     <Declaration>
@@ -292,10 +352,10 @@
         <NamedIndividual IRI="#System_Radiography"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#TreeMap_Java_Library"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TreeMap_Java_Library"/>
+        <NamedIndividual IRI="#ProfVis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cluster"/>
@@ -304,10 +364,13 @@
         <NamedIndividual IRI="#SolidFX"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#C++"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Location"/>
@@ -331,13 +394,16 @@
         <NamedIndividual IRI="#SAB"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bytecode"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Runtime"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bytecode"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#JFreeChart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dependence_cluster_visualization"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Type_relationships"/>
@@ -367,6 +433,12 @@
         <NamedIndividual IRI="#OpenCloud"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Graph_visualization_for_the_analysis_of_the_structure_and_dynamics_of_extreme-scale_supercomputers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_exploration_of_function_call_graphs_for_feature_location_in_complex_software_systems"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Enjoy"/>
     </Declaration>
     <Declaration>
@@ -376,16 +448,22 @@
         <NamedIndividual IRI="#GraphViz"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Reviewer"/>
+        <NamedIndividual IRI="#Representing_unit_test_data_for_large_scale_software_development"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Domain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reviewer"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ConceptCloud"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_tool_for_visualizing_schemas_for_semistructured_data"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Item"/>
@@ -395,6 +473,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lead_developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Concurrency"/>
@@ -421,6 +502,15 @@
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_war_room_command_console:_shared_visualizations_for_inclusive_team_coordination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SWT"/>
     </Declaration>
     <Declaration>
@@ -436,6 +526,9 @@
         <NamedIndividual IRI="#Database"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Visualizing_structural_properties_of_irregular_parallel_computations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Encode"/>
     </Declaration>
     <Declaration>
@@ -445,16 +538,19 @@
         <NamedIndividual IRI="#ECCO"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FAN"/>
+        <Class IRI="#Table"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Table"/>
+        <NamedIndividual IRI="#FAN"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shape"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Atribute_reduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mix-Convenience-End-User"/>
     </Declaration>
     <Declaration>
         <Class IRI="#None"/>
@@ -464,6 +560,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isProcess-Oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Annotate"/>
@@ -478,10 +580,19 @@
         <Class IRI="#Summarize"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Changes"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Binary_files"/>
@@ -499,10 +610,13 @@
         <Class IRI="#Proprietary"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reduce"/>
+        <NamedIndividual IRI="#Stacked-widget_visualization_of_scheduling-based_algorithms"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reduce"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Perfective_Maintenance"/>
@@ -511,16 +625,22 @@
         <Class IRI="#Ordering_direction"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#JavaScript"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#C"/>
+        <NamedIndividual IRI="#Graph_works_-_pilot_graph_theory_visualization_tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sequential"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#EPOSee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jove:_java_as_it_happens"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Separate"/>
@@ -535,40 +655,52 @@
         <NamedIndividual IRI="#Iconic"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GraphStream"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spartial_region"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Express"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GraphStream"/>
+        <Class IRI="#Trend"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#usedBy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Trend"/>
+        <NamedIndividual IRI="#Linvis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#EVolve:_an_open_extensible_software_visualization_framework"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Information_worker"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Combined_Software_Reconnaissance_&amp;amp;_Static_Analysis_Eclipse_Visualisation_Plug-in"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Use"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Flask"/>
+        <NamedIndividual IRI="#SMNLV:_A_Small-Multiples_Node-Link_Visualization_Supporting_Software_Comprehension_by_Displaying_Multiple_Relationships_in_Software_Structure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Diverging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flask"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Graph"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Open-source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualizing_Java_in_action"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Order"/>
@@ -586,13 +718,16 @@
         <NamedIndividual IRI="#Evolve"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Representing_development_history_in_software_cities"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Lumiere"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#DAHLIA"/>
+        <Class IRI="#Distort_geometry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Distort_geometry"/>
+        <NamedIndividual IRI="#DAHLIA"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Problem-oriented"/>
@@ -628,6 +763,12 @@
         <NamedIndividual IRI="#CrocoCosmos"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#End-User_student"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Online-configuration_of_software_visualizations_with_Vizz3D"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Partition"/>
     </Declaration>
     <Declaration>
@@ -644,6 +785,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
     </Declaration>
     <Declaration>
         <Class IRI="#List"/>
@@ -664,10 +808,10 @@
         <NamedIndividual IRI="#Ivis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#dot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#dot"/>
+        <NamedIndividual IRI="#SMNLV"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jove"/>
@@ -685,13 +829,16 @@
         <Class IRI="#Link"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Explora:_A_Visualisation_Tool_for_Metric_Analysis_of_Software_Corpora"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ordered"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#People"/>
+        <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data_type"/>
+        <NamedIndividual IRI="#People"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Superimpose_layer"/>
@@ -704,6 +851,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Polyptychon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vizSlice:_Visualizing_Large_Scale_Software_Slices"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#useFramework"/>
@@ -719,6 +869,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#User"/>
@@ -742,13 +895,13 @@
         <NamedIndividual IRI="#Java_FX"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Representation"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#underLicense"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tcl/Tk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Representation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Swing"/>
@@ -757,13 +910,16 @@
         <NamedIndividual IRI="#Version_control_system"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Jigsaw"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aggregate"/>
+        <NamedIndividual IRI="#Histogram"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Histogram"/>
+        <Class IRI="#Aggregate"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAttribute"/>
@@ -775,6 +931,9 @@
         <Class IRI="#Correlation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Share_encoding"/>
     </Declaration>
     <Declaration>
@@ -790,13 +949,22 @@
         <Class IRI="#Navigate"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advancing_Data_Race_Investigation_and_Classification_through_Visualization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rigi"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Path"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rigi"/>
+        <NamedIndividual IRI="#Mr._Clean:_A_Tool_for_Tracking_and_Comparing_the_Lineage_of_Scientific_Visualization_Code"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BSD"/>
@@ -808,16 +976,16 @@
         <Class IRI="#Compare"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VisMOOS"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#wxWindows"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Same"/>
+        <NamedIndividual IRI="#VisMOOS"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Element_relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Same"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSubject-Oriented"/>
@@ -844,10 +1012,13 @@
         <Class IRI="#Locate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Stand-alone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#URL"/>
+        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Engineer"/>
@@ -856,10 +1027,10 @@
         <Class IRI="#Tool"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Analyst"/>
+        <NamedIndividual IRI="#Custom"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Custom"/>
+        <NamedIndividual IRI="#Analyst"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Curvature"/>
@@ -871,6 +1042,9 @@
         <NamedIndividual IRI="#Slice"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Visualization_for_information_exploration_and_analysis:_keynote_presentation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Attributes"/>
     </Declaration>
     <Declaration>
@@ -880,10 +1054,16 @@
         <NamedIndividual IRI="#Quality_assurance_engineer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Horizontal_line"/>
+        <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KScope:_A_Modularized_Tool_for_3D_Visualization_of_Object-Oriented_Programs"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MosaiCode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horizontal_line"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DOTS"/>
@@ -895,16 +1075,22 @@
         <ObjectProperty IRI="#useRepresentation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DEVis:_A_tool_for_visualizing_software_document_evolution"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Embed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Maintainer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tensor"/>
+        <NamedIndividual IRI="#Area"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Area"/>
+        <Class IRI="#Tensor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Build"/>
@@ -913,7 +1099,13 @@
         <Class IRI="#Facet"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#End-User"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Service-oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Designer"/>
@@ -925,31 +1117,52 @@
         <Class IRI="#Vector"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#3D_graph"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pixel-based"/>
+        <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Programming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#All_data"/>
+        <NamedIndividual IRI="#Pixel-based"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Icicle_tree"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Navigate"/>
+        <Class IRI="#All_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VAST:_visualization_of_abstract_syntax_trees_within_language_processors_courses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Quantitative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Navigate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Perquimans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#VR_Juggler"/>
@@ -961,7 +1174,13 @@
         <NamedIndividual IRI="#AWT"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#MIT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Advanced_user"/>
@@ -970,13 +1189,16 @@
         <NamedIndividual IRI="#OpenGL"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Present"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Audience"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Present"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Changes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HTML5"/>
@@ -991,7 +1213,16 @@
         <NamedIndividual IRI="#HEB"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Convenience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Extreme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Towards_Visualization_of_Feature_Interactions_in_Software_Product_Lines"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Item_reduction"/>
@@ -1009,10 +1240,16 @@
         <NamedIndividual IRI="#History"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GEM:_graphical_explorer_of_MPI_programs"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Java"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dependencies_Analysis_of_Azureus_with_Rigi:_Tool_Demo_Challenge"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Graph_Works"/>
@@ -1027,13 +1264,16 @@
         <Class IRI="#Distribution"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MosaiCode:_Visualizing_large_scale_software:_A_tool_demonstration"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Processing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Many"/>
+        <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Discover"/>
+        <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Chronos"/>
@@ -1045,6 +1285,9 @@
         <NamedIndividual IRI="#Leader"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Dependency"/>
     </Declaration>
     <Declaration>
@@ -1052,6 +1295,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Roassal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_code_city"/>
@@ -1063,16 +1309,22 @@
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Beat:_a_tool_for_visualizing_the_execution_of_object_orientated_concurrent_programs"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Different"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stench_Blossom"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bug_triager"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Intent_and_implication"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bug_triager"/>
+        <NamedIndividual IRI="#Chronos:_Visualizing_slices_of_source-code_history"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Standard"/>
@@ -1093,16 +1345,22 @@
         <Class IRI="#Process-oriented"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Spatial_data"/>
+        <NamedIndividual IRI="#Jsvee_&amp;_Kelmu:_Creating_and_Tailoring_Program_Animations_for_Computing_Education"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Data_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatial_data"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Parallel_coordinates"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isProblem-Oriented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merge-Tree:_Visualizing_the_Integration_of_Commits_into_Linux"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CSI"/>
@@ -1117,16 +1375,19 @@
         <NamedIndividual IRI="#Teammates"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Position"/>
+        <NamedIndividual IRI="#Heatmap"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Heatmap"/>
+        <Class IRI="#Position"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#VERSO"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Programmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#useDataSource"/>
@@ -1150,16 +1411,25 @@
         <ObjectProperty IRI="#carryOutTask"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Query"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Smalltalk"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Query"/>
+        <NamedIndividual IRI="#Kayrebt:_An_Activity_Diagram_Extraction_and_Visualization_Toolset_Designed_for_the_Linux_Codebase"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Researcher"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#RaceView"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Execution_patterns_for_visualizing_web_services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Self-Assessment"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Evolution_Comprehension_for_Maintenance"/>
@@ -1180,6 +1450,9 @@
         <NamedIndividual IRI="#GLUT"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Visualizing_Dynamic_Memory_Allocations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lookup"/>
     </Declaration>
     <Declaration>
@@ -1189,7 +1462,16 @@
         <NamedIndividual IRI="#Graphisto_Toolkit"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CVSgrab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_support_for_porting_large_code_bases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_exploration_of_program_structure,_dependencies_and_metrics_with_SolidSX"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jive"/>
@@ -1204,10 +1486,13 @@
         <NamedIndividual IRI="#Kayrebt"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#FreeType"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GUITracer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FreeType"/>
+        <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Understanding"/>
@@ -1225,16 +1510,22 @@
         <NamedIndividual IRI="#Software_metrics"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Table_lens"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Marama_Torua"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Roassal3D"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Consume"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Roassal3D"/>
+        <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Juxtrapose"/>
@@ -1253,6 +1544,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Program_slice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#End-User_professional_developer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Share_navigation"/>
@@ -3457,6 +3751,36 @@
         <NamedIndividual IRI="#Manager"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_tool_for_visualizing_schemas_for_semistructured_data"/>
+        <NamedIndividual IRI="#Convenience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
+        <NamedIndividual IRI="#Mix-Convenience-End-User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -4347,6 +4671,11 @@
         <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Dependence_cluster_visualization"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#ECCO"/>
         <NamedIndividual IRI="#Maintenance"/>
@@ -4505,6 +4834,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#Evolve"/>
         <NamedIndividual IRI="#Scatter-plot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+        <NamedIndividual IRI="#End-User_student"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -4930,6 +5264,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
         <NamedIndividual IRI="#Horizontal_tree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
@@ -6267,6 +6606,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
+        <NamedIndividual IRI="#End-User_student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#RaceView"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -6520,6 +6864,11 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
+        <NamedIndividual IRI="#Convenience"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
@@ -6982,6 +7331,11 @@
         <NamedIndividual IRI="#Pixel-based"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#End-User_professional_developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#TraceCrawler"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
@@ -7280,6 +7634,46 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#VisMOOS"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
+        <NamedIndividual IRI="#End-User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -7642,6 +8036,41 @@
         <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
+        <NamedIndividual IRI="#Mix-Convenience-End-User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
+        <NamedIndividual IRI="#End-User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
+        <NamedIndividual IRI="#Convenience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Programming"/>
@@ -7725,6 +8154,46 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Tester"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#SMNLV:_A_Small-Multiples_Node-Link_Visualization_Supporting_Software_Comprehension_by_Displaying_Multiple_Relationships_in_Software_Structure"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+        <NamedIndividual IRI="#Convenience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#The_war_room_command_console:_shared_visualizations_for_inclusive_team_coordination"/>
+        <NamedIndividual IRI="#End-User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
+        <NamedIndividual IRI="#Self-Assessment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wasAttendedBy"/>
+        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
+        <NamedIndividual IRI="#End-User"/>
     </ObjectPropertyAssertion>
     <NegativeObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
