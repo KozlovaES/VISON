@@ -118,6 +118,9 @@
         <Class IRI="#Elements"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Seating_VR"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Maintenance"/>
     </Declaration>
     <Declaration>
@@ -137,6 +140,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Parceive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standart_Computer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Manipulate"/>
@@ -358,6 +364,9 @@
         <NamedIndividual IRI="#Beck,_F."/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Physical_3D_model"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Paladir"/>
     </Declaration>
     <Declaration>
@@ -374,6 +383,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Browse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refresh_rate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#All"/>
@@ -400,7 +412,13 @@
         <Class IRI="#Other"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Projected_room"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Hauswirth,_M."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_generated"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Finding"/>
@@ -736,6 +754,9 @@
         <NamedIndividual IRI="#Python"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Tabletop"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Binary_files"/>
     </Declaration>
     <Declaration>
@@ -800,6 +821,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jove:_java_as_it_happens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#On-Screen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Collberg,_C."/>
@@ -976,6 +1000,9 @@
         <Class IRI="#Outlier"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Resolution"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Filter"/>
     </Declaration>
     <Declaration>
@@ -1058,6 +1085,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immersive"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Data_type"/>
@@ -1153,6 +1183,9 @@
         <ObjectProperty IRI="#underLicense"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Version_control_system"/>
     </Declaration>
     <Declaration>
@@ -1220,6 +1253,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Santos,_E.A."/>
@@ -1375,10 +1411,16 @@
         <NamedIndividual IRI="#Schafer,_T."/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Haptic"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#DEVis:_A_tool_for_visualizing_software_document_evolution"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Embed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smartphone"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
@@ -1555,6 +1597,9 @@
         <NamedIndividual IRI="#Convenience"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Wall-Display"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Wysseier,_C."/>
     </Declaration>
     <Declaration>
@@ -1571,6 +1616,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#New_team_members"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standing_VR"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Explore"/>
@@ -2050,6 +2098,10 @@
         <Class IRI="#Query"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Computer_generated"/>
+        <Class IRI="#Medium"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Consume"/>
         <Class IRI="#Analyze"/>
     </SubClassOf>
@@ -2170,8 +2222,16 @@
         <Class IRI="#Data_type"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Haptic"/>
+        <Class IRI="#Medium"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Identify"/>
         <Class IRI="#Query"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immersive"/>
+        <Class IRI="#Computer_generated"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Item"/>
@@ -2242,6 +2302,10 @@
         <Class IRI="#Tool"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#On-Screen"/>
+        <Class IRI="#Computer_generated"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#One"/>
         <Class IRI="#Target_attribute"/>
     </SubClassOf>
@@ -2282,6 +2346,10 @@
         <Class IRI="#List"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Physical_3D_model"/>
+        <Class IRI="#Haptic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Position"/>
         <Class IRI="#Data_type"/>
     </SubClassOf>
@@ -2300,6 +2368,10 @@
     <SubClassOf>
         <Class IRI="#Produce"/>
         <Class IRI="#Analyze"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Projected_room"/>
+        <Class IRI="#Immersive"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Proprietary"/>
@@ -2322,8 +2394,16 @@
         <Class IRI="#Technique"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Refresh_rate"/>
+        <Class IRI="#Computer_generated"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Representation"/>
         <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resolution"/>
+        <Class IRI="#Computer_generated"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Same"/>
@@ -2336,6 +2416,10 @@
     <SubClassOf>
         <Class IRI="#Search"/>
         <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seating_VR"/>
+        <Class IRI="#Immersive"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Select"/>
@@ -2378,6 +2462,10 @@
         <Class IRI="#Many"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Smartphone"/>
+        <Class IRI="#On-Screen"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Source"/>
         <Class IRI="#Data"/>
     </SubClassOf>
@@ -2388,6 +2476,14 @@
     <SubClassOf>
         <Class IRI="#Stand-alone"/>
         <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standart_Computer"/>
+        <Class IRI="#On-Screen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standing_VR"/>
+        <Class IRI="#Immersive"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Static"/>
@@ -2412,6 +2508,14 @@
     <SubClassOf>
         <Class IRI="#Table"/>
         <Class IRI="#Dataset_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#On-Screen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tabletop"/>
+        <Class IRI="#On-Screen"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Target"/>
@@ -2448,6 +2552,10 @@
     <SubClassOf>
         <Class IRI="#Vector"/>
         <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wall-Display"/>
+        <Class IRI="#On-Screen"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Web"/>
