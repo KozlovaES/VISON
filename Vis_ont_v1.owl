@@ -595,6 +595,9 @@
         <Class IRI="#List"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#vizSlice"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Amadasun,_E."/>
     </Declaration>
     <Declaration>
@@ -1525,9 +1528,6 @@
         <Class IRI="#Categorical"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#visSlice"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OS"/>
     </Declaration>
     <Declaration>
@@ -2348,6 +2348,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Weiskopf,_D."/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describedInTheArticle"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dense_pixel"/>
@@ -4644,11 +4647,11 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Framework"/>
@@ -4707,6 +4710,11 @@
         <NamedIndividual IRI="#Tcl/Tk"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#AGG"/>
+        <NamedIndividual IRI="#Evolutionary_layout:_preserving_the_mental_map_during_the_development_of_class_models"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#AGG"/>
         <NamedIndividual IRI="#Free"/>
@@ -4715,6 +4723,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
         <NamedIndividual IRI="#Software_Process_Management"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
+        <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5057,6 +5070,11 @@
         <NamedIndividual IRI="#Debugging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Atropos"/>
+        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Atropos"/>
         <NamedIndividual IRI="#Concurrency"/>
@@ -5132,6 +5150,11 @@
         <NamedIndividual IRI="#Student"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Beat"/>
+        <NamedIndividual IRI="#Beat:_a_tool_for_visualizing_the_execution_of_object_orientated_concurrent_programs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Beat"/>
         <NamedIndividual IRI="#Free"/>
@@ -5140,6 +5163,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Blended_City"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Blended_City"/>
+        <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5212,6 +5240,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#CHIVE"/>
+        <NamedIndividual IRI="#A_Combined_Software_Reconnaissance_&amp;amp;_Static_Analysis_Eclipse_Visualisation_Plug-in"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#CHIVE"/>
         <NamedIndividual IRI="#GPL"/>
@@ -5230,6 +5263,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#CSI"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Critical_Section_Investigator:_Building_Story_Visualizations_with_Program_Traces"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5307,6 +5345,11 @@
         <NamedIndividual IRI="#Reverse_Engineering"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#CVSgrab"/>
+        <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#CVSgrab"/>
         <NamedIndividual IRI="#History"/>
@@ -5375,6 +5418,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#CVSscan"/>
         <NamedIndividual IRI="#Software_Comprehension"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#CVSscan"/>
+        <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5492,6 +5540,11 @@
         <NamedIndividual IRI="#Debugging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
+        <NamedIndividual IRI="#Visual_exploration_of_function_call_graphs_for_feature_location_in_complex_software_systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -5535,6 +5588,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#ChronoTwigger"/>
         <NamedIndividual IRI="#Testing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#ChronoTwigger"/>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5622,6 +5680,11 @@
         <NamedIndividual IRI="#Reverse_Engineering"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#Chronos:_Visualizing_slices_of_source-code_history"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Chronos"/>
         <NamedIndividual IRI="#History"/>
@@ -5672,6 +5735,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Code_Bubbles"/>
+        <NamedIndividual IRI="#The_visualizations_of_code_bubbles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Code_Bubbles"/>
         <NamedIndividual IRI="#Source_code"/>
@@ -5700,6 +5768,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#ConceptCloud"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5765,6 +5838,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#CrocoCosmos"/>
+        <NamedIndividual IRI="#Representing_development_history_in_software_cities"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -5847,6 +5925,11 @@
         <NamedIndividual IRI="#Software_Process_Management"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#DEVis"/>
+        <NamedIndividual IRI="#DEVis:_A_tool_for_visualizing_software_document_evolution"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#DEVis"/>
         <NamedIndividual IRI="#History"/>
@@ -5910,6 +5993,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#DOTS"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#DOTS"/>
+        <NamedIndividual IRI="#Visualizing_structural_properties_of_irregular_parallel_computations"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
@@ -5985,6 +6073,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#ECCO"/>
         <NamedIndividual IRI="#Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#ECCO"/>
+        <NamedIndividual IRI="#Towards_Visualization_of_Feature_Interactions_in_Software_Product_Lines"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6077,6 +6170,11 @@
         <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#EPOSee"/>
+        <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#EPOSee"/>
         <NamedIndividual IRI="#GPL"/>
@@ -6105,6 +6203,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#EPOSee"/>
         <NamedIndividual IRI="#Matrix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Evolve"/>
+        <NamedIndividual IRI="#EVolve:_an_open_extensible_software_visualization_framework"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -6202,9 +6305,19 @@
         <NamedIndividual IRI="#Jain,_J."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Explora"/>
+        <NamedIndividual IRI="#Explora:_A_Visualisation_Tool_for_Metric_Analysis_of_Software_Corpora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Explora"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#FAN"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -6225,6 +6338,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Flatland"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Flatland"/>
+        <NamedIndividual IRI="#Graph_visualization_for_the_analysis_of_the_structure_and_dynamics_of_extreme-scale_supercomputers"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
@@ -6270,6 +6388,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#FlyBy"/>
         <NamedIndividual IRI="#Testing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#FlyBy"/>
+        <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6322,6 +6445,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#GEM"/>
+        <NamedIndividual IRI="#GEM:_graphical_explorer_of_MPI_programs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#GEM"/>
         <NamedIndividual IRI="#Free"/>
@@ -6330,6 +6458,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#GENISOM"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#GENISOM"/>
+        <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6385,6 +6518,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#GUITracer"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#GUITracer"/>
+        <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6467,6 +6605,11 @@
         <NamedIndividual IRI="#Student"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Gevol"/>
+        <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Gevol"/>
         <NamedIndividual IRI="#Version_control_system"/>
@@ -6485,6 +6628,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Grammatella"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Grammatella"/>
+        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6550,6 +6698,11 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#Grammatella"/>
         <NamedIndividual IRI="#Maintainer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Graph_Works"/>
+        <NamedIndividual IRI="#Graph_works_-_pilot_graph_theory_visualization_tool"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -6642,6 +6795,11 @@
         <NamedIndividual IRI="#Debugging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Heapviz"/>
+        <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Debugging"/>
@@ -6685,6 +6843,11 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#Heapviz"/>
         <NamedIndividual IRI="#Programmer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
+        <NamedIndividual IRI="#Execution_patterns_for_visualizing_web_services"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -6737,6 +6900,11 @@
         <NamedIndividual IRI="#Programming"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Ivis"/>
+        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Ivis"/>
         <NamedIndividual IRI="#Performance"/>
@@ -6782,6 +6950,16 @@
         <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jigsaw"/>
+        <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jigsaw"/>
+        <NamedIndividual IRI="#Visualization_for_information_exploration_and_analysis:_keynote_presentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Jigsaw"/>
         <NamedIndividual IRI="#Free"/>
@@ -6822,6 +7000,16 @@
         <NamedIndividual IRI="#Tag_cloud"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jive"/>
+        <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jive"/>
+        <NamedIndividual IRI="#Visualizing_Java_in_action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Jive"/>
         <NamedIndividual IRI="#Free"/>
@@ -6857,6 +7045,11 @@
         <NamedIndividual IRI="#Tree"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jove"/>
+        <NamedIndividual IRI="#Jove:_java_as_it_happens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Jove"/>
         <NamedIndividual IRI="#Free"/>
@@ -6890,6 +7083,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Jsvee"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Jsvee"/>
+        <NamedIndividual IRI="#Jsvee_&amp;_Kelmu:_Creating_and_Tailoring_Program_Animations_for_Computing_Education"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -6950,6 +7148,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Kayrebt"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Kayrebt"/>
+        <NamedIndividual IRI="#Kayrebt:_An_Activity_Diagram_Extraction_and_Visualization_Toolset_Designed_for_the_Linux_Codebase"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
@@ -7032,6 +7235,11 @@
         <NamedIndividual IRI="#Reverse_Engineering"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Kscope"/>
+        <NamedIndividual IRI="#KScope:_A_Modularized_Tool_for_3D_Visualization_of_Object-Oriented_Programs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Kscope"/>
         <NamedIndividual IRI="#Testing"/>
@@ -7080,6 +7288,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Linvis"/>
         <NamedIndividual IRI="#Software_Process_Management"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Linvis"/>
+        <NamedIndividual IRI="#Merge-Tree:_Visualizing_the_Integration_of_Commits_into_Linux"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
@@ -7150,6 +7363,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Lumiere"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Lumiere"/>
+        <NamedIndividual IRI="#Stacked-widget_visualization_of_scheduling-based_algorithms"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7237,6 +7455,11 @@
         <NamedIndividual IRI="#Programmer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Marama_Torua"/>
+        <NamedIndividual IRI="#A_tool_for_visualizing_schemas_for_semistructured_data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Marama_Torua"/>
         <NamedIndividual IRI="#Free"/>
@@ -7250,6 +7473,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MemoView"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#MemoView"/>
+        <NamedIndividual IRI="#Visualizing_Dynamic_Memory_Allocations"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7310,6 +7538,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MetaVis"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#MetaVis"/>
+        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7385,6 +7618,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
         <NamedIndividual IRI="#Jayaraman,_B."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#MetricView"/>
+        <NamedIndividual IRI="#Visual_Exploration_of_Combined_Architectural_and_Metric_Information"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7522,6 +7760,11 @@
         <NamedIndividual IRI="#Washizaki,_H."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
+        <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
         <NamedIndividual IRI="#Dependencies"/>
@@ -7562,6 +7805,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Mondrian"/>
+        <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Mondrian"/>
         <NamedIndividual IRI="#BSD"/>
@@ -7575,6 +7823,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#MosaiCode"/>
         <NamedIndividual IRI="#Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#MosaiCode:_Visualizing_large_scale_software:_A_tool_demonstration"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7667,6 +7920,11 @@
         <NamedIndividual IRI="#Software_architect"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Mr.Clean"/>
+        <NamedIndividual IRI="#Mr._Clean:_A_Tool_for_Tracking_and_Comparing_the_Lineage_of_Scientific_Visualization_Code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Mr.Clean"/>
         <NamedIndividual IRI="#Commercial"/>
@@ -7690,6 +7948,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
         <NamedIndividual IRI="#Voinea,_L."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#NosePrints"/>
+        <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -7737,6 +8000,11 @@
         <NamedIndividual IRI="#Software_Process_Management"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Paladir"/>
+        <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#Paladir"/>
         <NamedIndividual IRI="#History"/>
@@ -7775,6 +8043,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Parceive"/>
         <NamedIndividual IRI="#Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Parceive"/>
+        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7845,6 +8118,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Perquimans"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -7957,6 +8235,11 @@
         <NamedIndividual IRI="#Programming"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#PlanAni"/>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
         <NamedIndividual IRI="#PlanAni"/>
         <NamedIndividual IRI="#Source_available"/>
@@ -8020,6 +8303,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Polyptychon"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Polyptychon"/>
+        <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8090,6 +8378,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#PortAssist"/>
         <NamedIndividual IRI="#Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#PortAssist"/>
+        <NamedIndividual IRI="#Visual_support_for_porting_large_code_bases"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8172,6 +8465,11 @@
         <NamedIndividual IRI="#Reverse_Engineering"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#ProfVis"/>
+        <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
         <NamedIndividual IRI="#ProfVis"/>
         <NamedIndividual IRI="#Source_available"/>
@@ -8250,6 +8548,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#RaceView"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#RaceView"/>
+        <NamedIndividual IRI="#Advancing_Data_Race_Investigation_and_Classification_through_Visualization"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8357,6 +8660,11 @@
         <NamedIndividual IRI="#Lumsdaine,_A."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Revision_Towers"/>
+        <NamedIndividual IRI="#Revision_Towers_article_title"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Revision_Towers"/>
         <NamedIndividual IRI="#Version_control_system"/>
@@ -8392,9 +8700,19 @@
         <NamedIndividual IRI="#Taylor,_C.M.B."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Rigi"/>
+        <NamedIndividual IRI="#Dependencies_Analysis_of_Azureus_with_Rigi:_Tool_Demo_Challenge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Rigi"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SAB"/>
+        <NamedIndividual IRI="#SAB_-_The_Software_Architecture_Browser"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -8430,6 +8748,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SMNLV"/>
         <NamedIndividual IRI="#Software_Comprehension"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SMNLV"/>
+        <NamedIndividual IRI="#SMNLV:_A_Small-Multiples_Node-Link_Visualization_Supporting_Software_Comprehension_by_Displaying_Multiple_Relationships_in_Software_Structure"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8492,9 +8815,19 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SPIDER_SENSE"/>
+        <NamedIndividual IRI="#SPIDER_SENSE:_Software-Engineering,_Networked,_System_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
         <NamedIndividual IRI="#MIT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SYNCTRACE"/>
+        <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -8520,6 +8853,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SeeTest"/>
         <NamedIndividual IRI="#Testing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Representing_unit_test_data_for_large_scale_software_development"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8632,6 +8970,11 @@
         <NamedIndividual IRI="#Processing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SolidFX"/>
+        <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SolidFX"/>
         <NamedIndividual IRI="#Commercial"/>
@@ -8640,6 +8983,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SolidSDD"/>
         <NamedIndividual IRI="#Perfective_Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8735,6 +9083,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#SolidSX"/>
         <NamedIndividual IRI="#Reverse_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SolidSX"/>
+        <NamedIndividual IRI="#Visual_exploration_of_program_structure,_dependencies_and_metrics_with_SolidSX"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -8842,6 +9195,11 @@
         <NamedIndividual IRI="#Maintenance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#SourceVis"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#SourceVis"/>
         <NamedIndividual IRI="#Teammates"/>
@@ -8940,6 +9298,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Stench_Blossom"/>
         <NamedIndividual IRI="#Maintenance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Stench_Blossom"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSource"/>
@@ -9347,9 +9710,19 @@
         <NamedIndividual IRI="#Researcher"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#VAST"/>
+        <NamedIndividual IRI="#VAST:_visualization_of_abstract_syntax_trees_within_language_processors_courses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#VAST"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#VERSO"/>
+        <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
@@ -9392,6 +9765,16 @@
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Vampir"/>
+        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fromVenue"/>
+        <NamedIndividual IRI="#Vampir"/>
+        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#Vampir"/>
         <NamedIndividual IRI="#Documentation"/>
@@ -9410,6 +9793,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#Vestige"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Vestige"/>
+        <NamedIndividual IRI="#Vestige:_A_Visualization_Framework_for_Engineering_Geometry-Related_Software"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -9470,6 +9858,11 @@
         <ObjectProperty IRI="#usedBy"/>
         <NamedIndividual IRI="#Vestige"/>
         <NamedIndividual IRI="#Developer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#VisMOOS"/>
+        <NamedIndividual IRI="#3D_visualisation_of_code_structures_in_Java_software_systems"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -9867,6 +10260,11 @@
         <NamedIndividual IRI="#Yap,_Y.H."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Vizz3D"/>
+        <NamedIndividual IRI="#Online-configuration_of_software_visualizations_with_Vizz3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Vizz3D"/>
         <NamedIndividual IRI="#GPL"/>
@@ -9875,6 +10273,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#War_Room_Command_Console"/>
         <NamedIndividual IRI="#Software_Process_Management"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#War_Room_Command_Console"/>
+        <NamedIndividual IRI="#The_war_room_command_console:_shared_visualizations_for_inclusive_team_coordination"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -9932,6 +10335,11 @@
         <NamedIndividual IRI="#Technical_lead"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Zinsight"/>
+        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#Zinsight"/>
         <NamedIndividual IRI="#Commercial"/>
@@ -9960,6 +10368,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#decluvi"/>
         <NamedIndividual IRI="#Debugging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#decluvi"/>
+        <NamedIndividual IRI="#Dependence_cluster_visualization"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -10047,6 +10460,11 @@
         <NamedIndividual IRI="#Engineer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#jGrasp"/>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
         <NamedIndividual IRI="#jGrasp"/>
         <NamedIndividual IRI="#Runtime"/>
@@ -10063,93 +10481,103 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#carryOutTask"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Maintenance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#vizSlice"/>
+        <NamedIndividual IRI="#vizSlice:_Visualizing_Large_Scale_Software_Slices"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Dependencies"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProcess-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Building"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Finding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Questioning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSubject-Oriented"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Understanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useDataSource"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Source_code"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#D3.js"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useFramework"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#JavaScript"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useRepresentation"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Stacked"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Parallel_coordinates"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#useVisualizationTechnique"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Treemap"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usedBy"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Analyst"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usedBy"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usedBy"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#Maintainer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usedBy"/>
-        <NamedIndividual IRI="#visSlice"/>
+        <NamedIndividual IRI="#vizSlice"/>
         <NamedIndividual IRI="#User"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#xDIVA"/>
+        <NamedIndividual IRI="#xDIVA:_automatic_animation_between_debugging_break_points"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#underLicense"/>
@@ -10160,6 +10588,11 @@
         <ObjectProperty IRI="#carryOutTask"/>
         <NamedIndividual IRI="#xViZit"/>
         <NamedIndividual IRI="#Programming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#xViZit"/>
+        <NamedIndividual IRI="#XVIZIT:_Visualizing_Cognitive_Units_in_Spreadsheets"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
@@ -10852,6 +11285,11 @@
         <NamedIndividual IRI="#Programming"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isProblem-Oriented"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
         <NamedIndividual IRI="#Implementing"/>
@@ -11270,6 +11708,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
         <NamedIndividual IRI="#Noble,_J."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describedInTheArticle"/>
+        <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
+        <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
