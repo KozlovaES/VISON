@@ -28,10 +28,10 @@
         <NamedIndividual IRI="#Contracts"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Weissgerber,_P."/>
+        <NamedIndividual IRI="#Hindle,_A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hindle,_A."/>
+        <NamedIndividual IRI="#Weissgerber,_P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_matrix"/>
@@ -73,10 +73,10 @@
         <NamedIndividual IRI="#Holt,_R.C."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#jGrasp"/>
+        <NamedIndividual IRI="#Length"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Length"/>
+        <NamedIndividual IRI="#jGrasp"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Method_properties"/>
@@ -85,10 +85,10 @@
         <NamedIndividual IRI="#Gall,_H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Parceive"/>
+        <Class IRI="#Standart_Computer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Standart_Computer"/>
+        <NamedIndividual IRI="#Parceive"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Manipulate"/>
@@ -130,10 +130,10 @@
         <NamedIndividual IRI="#Brown,_R."/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#affects"/>
+        <NamedIndividual IRI="#Implications"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Implications"/>
+        <ObjectProperty IRI="#affects"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wu,_Y."/>
@@ -196,10 +196,10 @@
         <NamedIndividual IRI="#Source_code"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SeeTest"/>
+        <NamedIndividual IRI="#Control_FX"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Control_FX"/>
+        <NamedIndividual IRI="#SeeTest"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Horizontal_tree"/>
@@ -211,10 +211,10 @@
         <NamedIndividual IRI="#xDIVA"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Zulian,_P."/>
+        <NamedIndividual IRI="#Size"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Size"/>
+        <NamedIndividual IRI="#Zulian,_P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Beck,_F."/>
@@ -304,16 +304,16 @@
         <NamedIndividual IRI="#Reverse_Engineering"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Poulin,_P."/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Circular_tree"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Lund,_E."/>
+        <NamedIndividual IRI="#Poulin,_P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Barthel,_H."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lund,_E."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Muller,_H.A."/>
@@ -349,10 +349,10 @@
         <NamedIndividual IRI="#Jayaraman,_B."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ConceptCloud"/>
+        <NamedIndividual IRI="#Graf,_D."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Graf,_D."/>
+        <NamedIndividual IRI="#ConceptCloud"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Walkinshaw,_N."/>
@@ -439,10 +439,10 @@
         <NamedIndividual IRI="#Washizaki,_H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cleary,_B."/>
+        <NamedIndividual IRI="#Loewe,_W."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Loewe,_W."/>
+        <NamedIndividual IRI="#Cleary,_B."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Summarize"/>
@@ -484,10 +484,10 @@
         <NamedIndividual IRI="#Alomari,_H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Parnin,_C."/>
+        <Class IRI="#Ordering_direction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ordering_direction"/>
+        <NamedIndividual IRI="#Parnin,_C."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Maletic,_J.I."/>
@@ -571,16 +571,16 @@
         <NamedIndividual IRI="#Online-configuration_of_software_visualizations_with_Vizz3D"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Aftandilian,_E.E."/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Partition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Outlier"/>
+        <NamedIndividual IRI="#Aftandilian,_E.E."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Resolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outlier"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#PortAssist"/>
@@ -592,10 +592,10 @@
         <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#List"/>
+        <NamedIndividual IRI="#vizSlice"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#vizSlice"/>
+        <Class IRI="#List"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Amadasun,_E."/>
@@ -646,19 +646,19 @@
         <NamedIndividual IRI="#Reddy,_N.H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#de_Pauw,_W."/>
+        <NamedIndividual IRI="#NetBeans_Visual_Library"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#NetBeans_Visual_Library"/>
+        <NamedIndividual IRI="#de_Pauw,_W."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cross_II,_C.H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Java_FX"/>
+        <NamedIndividual IRI="#Black,_B.P."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Black,_B.P."/>
+        <NamedIndividual IRI="#Java_FX"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Czerwinski,_M."/>
@@ -682,28 +682,28 @@
         <NamedIndividual IRI="#Cornells_Huizing"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rea,_D."/>
+        <Class IRI="#Aggregate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aggregate"/>
+        <NamedIndividual IRI="#Rea,_D."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Correlation"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hendrix,_T.D."/>
+        <NamedIndividual IRI="#Moreta,_S."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Moreta,_S."/>
+        <NamedIndividual IRI="#Hendrix,_T.D."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lange,_C.F.J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Software_architect"/>
+        <NamedIndividual IRI="#Panas,_T."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Panas,_T."/>
+        <NamedIndividual IRI="#Software_architect"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pierce,_S."/>
@@ -724,13 +724,13 @@
         <NamedIndividual IRI="#Meurice,_L."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Advancing_Data_Race_Investigation_and_Classification_through_Visualization"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Lampert,_N."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Santos,_E.A."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advancing_Data_Race_Investigation_and_Classification_through_Visualization"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Azadmanesh,_M.R."/>
@@ -742,10 +742,10 @@
         <Class IRI="#License"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VisMOOS"/>
+        <NamedIndividual IRI="#wxWindows"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#wxWindows"/>
+        <NamedIndividual IRI="#VisMOOS"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Same"/>
@@ -769,6 +769,9 @@
         <NamedIndividual IRI="#jMonkeyEngine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Locate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#URL"/>
     </Declaration>
     <Declaration>
@@ -776,9 +779,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Stand-alone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Locate"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Yehl,_A."/>
@@ -808,16 +808,16 @@
         <NamedIndividual IRI="#Robertson,_G."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Khoussainova,_N."/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Tibbitts,_B.R."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MosaiCode"/>
+        <NamedIndividual IRI="#Khoussainova,_N."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#KScope:_A_Modularized_Tool_for_3D_Visualization_of_Object-Oriented_Programs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MosaiCode"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Horizontal_line"/>
@@ -838,25 +838,25 @@
         <NamedIndividual IRI="#DEVis:_A_tool_for_visualizing_software_document_evolution"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Smartphone"/>
+        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fukazawa,_Y."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
+        <Class IRI="#Smartphone"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Area"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Facet"/>
+        <NamedIndividual IRI="#Caudell,_T.P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Shpaner,_R."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Caudell,_T.P."/>
+        <Class IRI="#Facet"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#End-User"/>
@@ -877,10 +877,10 @@
         <NamedIndividual IRI="#Tartari,_G."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
+        <NamedIndividual IRI="#Young,_J.E."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Young,_J.E."/>
+        <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Irani,_P."/>
@@ -895,37 +895,37 @@
         <NamedIndividual IRI="#Icicle_tree"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Wuchner,_E."/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#VAST:_visualization_of_abstract_syntax_trees_within_language_processors_courses"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
+        <NamedIndividual IRI="#Wuchner,_E."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mesnage,_C."/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Quantitative"/>
+        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Navigate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Scalar"/>
+        <Class IRI="#Quantitative"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
+        <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Perquimans"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Boldyreff,_C."/>
+        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Nnadi,_O."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boldyreff,_C."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AWT"/>
@@ -934,10 +934,10 @@
         <NamedIndividual IRI="#MIT"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Present"/>
+        <Class IRI="#Audience"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Audience"/>
+        <Class IRI="#Present"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HTML5"/>
@@ -955,10 +955,10 @@
         <NamedIndividual IRI="#Tronel,_F."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Egyed,_A."/>
+        <NamedIndividual IRI="#2016"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2016"/>
+        <NamedIndividual IRI="#Egyed,_A."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Towards_Visualization_of_Feature_Interactions_in_Software_Product_Lines"/>
@@ -1012,10 +1012,10 @@
         <Class IRI="#Many"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Chronos"/>
+        <NamedIndividual IRI="#2015"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2015"/>
+        <NamedIndividual IRI="#Chronos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dependency"/>
@@ -1081,10 +1081,10 @@
         <NamedIndividual IRI="#Mocci,_A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Doellner,_J."/>
+        <NamedIndividual IRI="#CSI"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#CSI"/>
+        <NamedIndividual IRI="#Doellner,_J."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Urquiza-Fuentes,_J."/>
@@ -1189,10 +1189,10 @@
         <NamedIndividual IRI="#GUITracer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Understanding"/>
+        <NamedIndividual IRI="#Taïani,_F."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Taïani,_F."/>
+        <NamedIndividual IRI="#Understanding"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
@@ -1252,10 +1252,10 @@
         <Class IRI="#Share_navigation"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Broeksema,_B."/>
+        <NamedIndividual IRI="#Hemmati,_H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hemmati,_H."/>
+        <NamedIndividual IRI="#Broeksema,_B."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stencil_visualization_environment"/>
@@ -1267,10 +1267,10 @@
         <NamedIndividual IRI="#Cleve,_A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
+        <Class IRI="#Topology"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Topology"/>
+        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MetaVis"/>
@@ -1294,13 +1294,13 @@
         <Class IRI="#Dynamic"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Andrade,_H."/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Heapviz"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Benomar,_O."/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Andrade,_H."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Framework"/>
@@ -1324,10 +1324,10 @@
         <NamedIndividual IRI="#Dal_Sasso,_T."/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Seating_VR"/>
+        <NamedIndividual IRI="#Maintenance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Maintenance"/>
+        <Class IRI="#Seating_VR"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Taylor,_C.M.B."/>
@@ -1423,10 +1423,10 @@
         <NamedIndividual IRI="#Northover,_M."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Koch,_P."/>
+        <NamedIndividual IRI="#Dalessandro,_L."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dalessandro,_L."/>
+        <NamedIndividual IRI="#Koch,_P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gerndt,_T."/>
@@ -1444,16 +1444,16 @@
         <NamedIndividual IRI="#Commercial"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Lohr,_K.-P."/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Jones,_J.A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGG"/>
+        <NamedIndividual IRI="#Lohr,_K.-P."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Kienle,_H.M."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AGG"/>
     </Declaration>
     <Declaration>
         <Class IRI="#One"/>
@@ -1501,10 +1501,10 @@
         <NamedIndividual IRI="#SPIDER_SENSE:_Software-Engineering,_Networked,_System_Evaluation"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#3D_visualisation_of_code_structures_in_Java_software_systems"/>
+        <NamedIndividual IRI="#Software_Process_Management"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Software_Process_Management"/>
+        <NamedIndividual IRI="#3D_visualisation_of_code_structures_in_Java_software_systems"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stal,_M."/>
@@ -1543,10 +1543,10 @@
         <Class IRI="#Map"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
+        <NamedIndividual IRI="#Location"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Location"/>
+        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lewerentz,_C."/>
@@ -1561,10 +1561,10 @@
         <NamedIndividual IRI="#War_Room_Command_Console"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SAB"/>
+        <NamedIndividual IRI="#Bytecode"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bytecode"/>
+        <NamedIndividual IRI="#SAB"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JFreeChart"/>
@@ -1576,10 +1576,10 @@
         <NamedIndividual IRI="#Student"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Baracchi,_L."/>
+        <NamedIndividual IRI="#OpenCloud"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OpenCloud"/>
+        <NamedIndividual IRI="#Baracchi,_L."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gonzalez,_A."/>
@@ -1591,16 +1591,16 @@
         <NamedIndividual IRI="#Humphrey,_A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Morar,_J.F."/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Target"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Domain"/>
+        <NamedIndividual IRI="#Morar,_J.F."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Reviewer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Performance"/>
@@ -1618,19 +1618,19 @@
         <NamedIndividual IRI="#Zeckzer,_D."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Minelli,_R."/>
+        <Class IRI="#Item"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Item"/>
+        <NamedIndividual IRI="#Minelli,_R."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lead_developer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
+        <NamedIndividual IRI="#Concurrency"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Concurrency"/>
+        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Building"/>
@@ -1645,10 +1645,10 @@
         <NamedIndividual IRI="#Godfrey,_M.W."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
+        <NamedIndividual IRI="#Wang,_W."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Wang,_W."/>
+        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gopalakrishnan,_G."/>
@@ -1669,10 +1669,10 @@
         <NamedIndividual IRI="#Tsai,_H."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kim,_J."/>
+        <NamedIndividual IRI="#Davis,_T.A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Davis,_T.A."/>
+        <NamedIndividual IRI="#Kim,_J."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Johnson,_P."/>
@@ -1699,19 +1699,19 @@
         <Class IRI="#Annotate"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Depth"/>
+        <Class IRI="#Geometry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Geometry"/>
+        <NamedIndividual IRI="#Depth"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Changes"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Python"/>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
+        <NamedIndividual IRI="#Python"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Binary_files"/>
@@ -1726,19 +1726,19 @@
         <ObjectProperty IRI="#fromVenue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reduce"/>
+        <NamedIndividual IRI="#Shape"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Shape"/>
+        <Class IRI="#Reduce"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Perfective_Maintenance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#C"/>
+        <NamedIndividual IRI="#JavaScript"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#JavaScript"/>
+        <NamedIndividual IRI="#C"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sequential"/>
@@ -1747,10 +1747,10 @@
         <NamedIndividual IRI="#EPOSee"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Driesen,_K."/>
+        <Class IRI="#On-Screen"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#On-Screen"/>
+        <NamedIndividual IRI="#Driesen,_K."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Separate"/>
@@ -1765,10 +1765,10 @@
         <NamedIndividual IRI="#Iconic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Spartial_region"/>
+        <Class IRI="#Express"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Express"/>
+        <NamedIndividual IRI="#Spartial_region"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Trend"/>
@@ -1795,10 +1795,10 @@
         <NamedIndividual IRI="#Flask"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bongo,_L.A."/>
+        <NamedIndividual IRI="#Graph"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Graph"/>
+        <NamedIndividual IRI="#Bongo,_L.A."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gannod,_G."/>
@@ -1807,22 +1807,22 @@
         <Class IRI="#Open-source"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualizing_Java_in_action"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Jones,_J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Abreu,_R."/>
+        <NamedIndividual IRI="#Visualizing_Java_in_action"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Order"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kelley,_S."/>
+        <NamedIndividual IRI="#Abreu,_R."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Prefuse_toolkit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kelley,_S."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Similarity"/>
@@ -1852,10 +1852,10 @@
         <NamedIndividual IRI="#PlanAni"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#VAST"/>
+        <NamedIndividual IRI="#Bohnet,_J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bohnet,_J."/>
+        <NamedIndividual IRI="#VAST"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#van_de_Wetering,_H."/>
@@ -1915,10 +1915,10 @@
         <Class IRI="#Select"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Liggesmeyer,_P."/>
+        <NamedIndividual IRI="#Mr.Clean"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mr.Clean"/>
+        <NamedIndividual IRI="#Liggesmeyer,_P."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Link"/>
@@ -1933,22 +1933,22 @@
         <NamedIndividual IRI="#Hursey,_J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#People"/>
+        <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Immersive"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data_type"/>
+        <NamedIndividual IRI="#People"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Superimpose_layer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SolidSDD"/>
+        <NamedIndividual IRI="#Nagra,_J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nagra,_J."/>
+        <NamedIndividual IRI="#SolidSDD"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#vizSlice:_Visualizing_Large_Scale_Software_Slices"/>
@@ -1981,10 +1981,10 @@
         <NamedIndividual IRI="#Angle"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kanazawa,_M."/>
+        <NamedIndividual IRI="#Mosora,_D.J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mosora,_D.J."/>
+        <NamedIndividual IRI="#Kanazawa,_M."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Guyer,_S.Z."/>
@@ -2002,13 +2002,13 @@
         <NamedIndividual IRI="#Color"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Representation"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Swing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tcl/Tk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Representation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
@@ -2101,10 +2101,10 @@
         <NamedIndividual IRI="#Tong,_V.V.T."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Engineer"/>
+        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
+        <NamedIndividual IRI="#Engineer"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Murphy-Hill,_E."/>
@@ -2125,16 +2125,16 @@
         <NamedIndividual IRI="#Orso,_A."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2008"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Schneider,_T."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
+        <NamedIndividual IRI="#2008"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Quality_assurance_engineer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ripley,_R.M."/>
@@ -2158,10 +2158,10 @@
         <NamedIndividual IRI="#Maintainer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2007"/>
+        <Class IRI="#Tensor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tensor"/>
+        <NamedIndividual IRI="#2007"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Build"/>
@@ -2179,10 +2179,10 @@
         <NamedIndividual IRI="#Illescas,_S."/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Arrange"/>
+        <NamedIndividual IRI="#Designer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Designer"/>
+        <Class IRI="#Arrange"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vector"/>
@@ -2194,10 +2194,10 @@
         <NamedIndividual IRI="#Campos,_J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Krasikov,_S."/>
+        <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
+        <NamedIndividual IRI="#Krasikov,_S."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tarvo,_A."/>
@@ -2227,10 +2227,10 @@
         <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Advanced_user"/>
+        <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
+        <NamedIndividual IRI="#Advanced_user"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OpenGL"/>
@@ -2254,10 +2254,10 @@
         <NamedIndividual IRI="#Convenience"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Wall-Display"/>
+        <NamedIndividual IRI="#Wysseier,_C."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Wysseier,_C."/>
+        <Class IRI="#Wall-Display"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Extreme"/>
@@ -2326,16 +2326,16 @@
         <NamedIndividual IRI="#Chronos:_Visualizing_slices_of_source-code_history"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2006"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Molnar,_A.J."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kaplan,_A"/>
+        <NamedIndividual IRI="#2006"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kaplan,_A"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jain,_J."/>
@@ -2443,25 +2443,25 @@
         <NamedIndividual IRI="#RaceView"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Renieris,_M."/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Evolution_Comprehension_for_Maintenance"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cut"/>
+        <NamedIndividual IRI="#Renieris,_M."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Summers,_S.L."/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Circular_treemap"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Stasko,_J."/>
+        <Class IRI="#Lookup"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lookup"/>
+        <NamedIndividual IRI="#Stasko,_J."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CVSgrab"/>
@@ -2494,10 +2494,10 @@
         <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Derive"/>
+        <NamedIndividual IRI="#Feist,_M.D."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Feist,_M.D."/>
+        <Class IRI="#Derive"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pitts,_J."/>
@@ -2545,10 +2545,10 @@
         <NamedIndividual IRI="#Program_slice"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Lungu,_M."/>
+        <NamedIndividual IRI="#Ruhe,_G."/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Ruhe,_G."/>
+        <NamedIndividual IRI="#Lungu,_M."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Scatter-plot"/>
@@ -2736,6 +2736,10 @@
     <SubClassOf>
         <Class IRI="#Filter"/>
         <Class IRI="#Reduce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Framework"/>
+        <Class IRI="#Tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Free"/>
@@ -3258,10 +3262,6 @@
         <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#A_Roassal_3D_visualization_prototype"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Audience"/>
         <NamedIndividual IRI="#Advanced_user"/>
     </ClassAssertion>
@@ -3298,10 +3298,6 @@
         <NamedIndividual IRI="#Atropos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Atropos"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Free"/>
         <NamedIndividual IRI="#BSD"/>
     </ClassAssertion>
@@ -3310,19 +3306,11 @@
         <NamedIndividual IRI="#Beat"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Beat"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Static"/>
         <NamedIndividual IRI="#Binary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Blended_City"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Blended_City"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3366,15 +3354,7 @@
         <NamedIndividual IRI="#CHIVE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#CHIVE"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#CSI"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#CSI"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3382,23 +3362,11 @@
         <NamedIndividual IRI="#CVSgrab"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#CVSgrab"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#CVSscan"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#CVSscan"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Call_Graph_Analyzer"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Call_Graph_Analyzer"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3414,15 +3382,7 @@
         <NamedIndividual IRI="#ChronoTwigger"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#ChronoTwigger"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Chronos"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Chronos"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3439,10 +3399,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Code_Bubbles"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Code_Bubbles"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3470,10 +3426,6 @@
         <NamedIndividual IRI="#ConceptCloud"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#ConceptCloud"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Elements"/>
         <NamedIndividual IRI="#Concurrency"/>
     </ClassAssertion>
@@ -3495,10 +3447,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#CrocoCosmos"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#CrocoCosmos"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3526,23 +3474,11 @@
         <NamedIndividual IRI="#DAHLIA"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#DAHLIA"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#DEVis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#DEVis"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#DOTS"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#DOTS"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3586,15 +3522,7 @@
         <NamedIndividual IRI="#ECCO"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#ECCO"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#EPOSee"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#EPOSee"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3614,23 +3542,11 @@
         <NamedIndividual IRI="#Evolve"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Evolve"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Explora"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Explora"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#FAN"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#FAN"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3654,15 +3570,7 @@
         <NamedIndividual IRI="#Flatland"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Flatland"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#FlyBy"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#FlyBy"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3682,15 +3590,7 @@
         <NamedIndividual IRI="#GEM"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#GEM"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#GENISOM"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#GENISOM"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3706,10 +3606,6 @@
         <NamedIndividual IRI="#GUITracer"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#GUITracer"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Classification"/>
         <NamedIndividual IRI="#Geometrically-Transformed"/>
     </ClassAssertion>
@@ -3718,19 +3614,11 @@
         <NamedIndividual IRI="#Gevol"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Gevol"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Representation"/>
         <NamedIndividual IRI="#Glyph"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Grammatella"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Grammatella"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3750,10 +3638,6 @@
         <NamedIndividual IRI="#Graph_Works"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Graph_Works"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#Graphisto_Toolkit"/>
     </ClassAssertion>
@@ -3767,10 +3651,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Heapviz"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Heapviz"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3802,10 +3682,6 @@
         <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#IBM_Web_Services_Navigator"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Classification"/>
         <NamedIndividual IRI="#Iconic"/>
     </ClassAssertion>
@@ -3834,10 +3710,6 @@
         <NamedIndividual IRI="#Ivis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Ivis"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#JFreeChart"/>
     </ClassAssertion>
@@ -3858,15 +3730,7 @@
         <NamedIndividual IRI="#Jigsaw"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Jigsaw"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Jive"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Jive"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3874,15 +3738,7 @@
         <NamedIndividual IRI="#Jove"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Jove"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Jsvee"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Jsvee"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3890,15 +3746,7 @@
         <NamedIndividual IRI="#Kayrebt"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Kayrebt"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Kscope"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Kscope"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3918,10 +3766,6 @@
         <NamedIndividual IRI="#Linvis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Linvis"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Static"/>
         <NamedIndividual IRI="#Live_objects"/>
     </ClassAssertion>
@@ -3931,10 +3775,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Lumiere"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Lumiere"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3962,10 +3802,6 @@
         <NamedIndividual IRI="#Marama_Torua"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Marama_Torua"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Representation"/>
         <NamedIndividual IRI="#Matrix"/>
     </ClassAssertion>
@@ -3978,15 +3814,7 @@
         <NamedIndividual IRI="#MemoView"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#MemoView"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#MetaVis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#MetaVis"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3998,10 +3826,6 @@
         <NamedIndividual IRI="#MetricView"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#MetricView"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Static"/>
         <NamedIndividual IRI="#Metrics"/>
     </ClassAssertion>
@@ -4010,23 +3834,11 @@
         <NamedIndividual IRI="#Mobile_Object_Visualization"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Mobile_Object_Visualization"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#Mondrian"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Mondrian"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#MosaiCode"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#MosaiCode"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4039,10 +3851,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Mr.Clean"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Mr.Clean"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4066,10 +3874,6 @@
         <NamedIndividual IRI="#NosePrints"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#NosePrints"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#OpenCloud"/>
     </ClassAssertion>
@@ -4086,19 +3890,11 @@
         <NamedIndividual IRI="#Paladir"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Paladir"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Representation"/>
         <NamedIndividual IRI="#Parallel_coordinates"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Parceive"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Parceive"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4118,10 +3914,6 @@
         <NamedIndividual IRI="#Perquimans"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Perquimans"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#Pharo"/>
     </ClassAssertion>
@@ -4131,10 +3923,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#PlanAni"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#PlanAni"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4150,15 +3938,7 @@
         <NamedIndividual IRI="#Polyptychon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Polyptychon"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#PortAssist"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#PortAssist"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4175,10 +3955,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#ProfVis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#ProfVis"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4218,10 +3994,6 @@
         <NamedIndividual IRI="#RaceView"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#RaceView"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Changes"/>
         <NamedIndividual IRI="#Refactoring"/>
     </ClassAssertion>
@@ -4242,15 +4014,7 @@
         <NamedIndividual IRI="#Revision_Towers"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Revision_Towers"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Rigi"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Rigi"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4270,23 +4034,11 @@
         <NamedIndividual IRI="#SAB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#SAB"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#SMNLV"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#SMNLV"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#SPIDER_SENSE"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4298,19 +4050,11 @@
         <NamedIndividual IRI="#SYNCTRACE"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#SYNCTRACE"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Representation"/>
         <NamedIndividual IRI="#Scatter-plot"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#SeeTest"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#SeeTest"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4362,15 +4106,7 @@
         <NamedIndividual IRI="#SolidFX"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#SolidFX"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#SolidSDD"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#SolidSDD"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4378,15 +4114,7 @@
         <NamedIndividual IRI="#SolidSX"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#SolidSX"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#SourceVis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#SourceVis"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4418,19 +4146,11 @@
         <NamedIndividual IRI="#Stench_Blossom"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Stench_Blossom"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#Stencil_visualization_environment"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Streamsight"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Streamsight"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4447,10 +4167,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#System_Radiography"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#System_Radiography"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4494,10 +4210,6 @@
         <NamedIndividual IRI="#TraceCrawler"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#TraceCrawler"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Network"/>
         <NamedIndividual IRI="#Tree"/>
     </ClassAssertion>
@@ -4522,10 +4234,6 @@
         <NamedIndividual IRI="#TypeV"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#TypeV"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Element_relationship"/>
         <NamedIndividual IRI="#Type_relationships"/>
     </ClassAssertion>
@@ -4542,15 +4250,7 @@
         <NamedIndividual IRI="#VAST"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#VAST"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#VERSO"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#VERSO"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4562,10 +4262,6 @@
         <NamedIndividual IRI="#Vampir"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Vampir"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Static"/>
         <NamedIndividual IRI="#Version_control_system"/>
     </ClassAssertion>
@@ -4574,23 +4270,11 @@
         <NamedIndividual IRI="#Vestige"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#Vestige"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#VisMOOS"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#VisMOOS"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Vizz3D"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Vizz3D"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4602,15 +4286,7 @@
         <NamedIndividual IRI="#War_Room_Command_Console"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#War_Room_Command_Console"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#Zinsight"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#Zinsight"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4626,10 +4302,6 @@
         <NamedIndividual IRI="#decluvi"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#decluvi"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#dot"/>
     </ClassAssertion>
@@ -4638,19 +4310,11 @@
         <NamedIndividual IRI="#jGrasp"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#jGrasp"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Framework"/>
         <NamedIndividual IRI="#jMonkeyEngine"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#vizSlice"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#vizSlice"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4666,15 +4330,7 @@
         <NamedIndividual IRI="#xDIVA"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tool"/>
-        <NamedIndividual IRI="#xDIVA"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#xViZit"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#xViZit"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4699,10 +4355,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Name"/>
-        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tool"/>
         <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
     </ClassAssertion>
     <ClassAssertion>
