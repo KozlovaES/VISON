@@ -19,10 +19,10 @@
         <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Renieris_M"/>
+        <NamedIndividual IRI="#Contracts"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Contracts"/>
+        <NamedIndividual IRI="#Renieris_M"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_matrix"/>
@@ -148,10 +148,10 @@
         <NamedIndividual IRI="#Girba_T"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Moreta_S"/>
+        <NamedIndividual IRI="#Santos_EA"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Santos_EA"/>
+        <NamedIndividual IRI="#Moreta_S"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Eclipse_Visualization_Toolkit"/>
@@ -220,10 +220,10 @@
         <NamedIndividual IRI="#Horizontal_tree"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Velazquez-Iturbide_JA"/>
+        <NamedIndividual IRI="#xDIVA"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#xDIVA"/>
+        <NamedIndividual IRI="#Velazquez-Iturbide_JA"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hursey_J"/>
@@ -250,6 +250,9 @@
         <Class IRI="#All"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Non-Controlled_Experiment"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Live_objects"/>
     </Declaration>
     <Declaration>
@@ -257,6 +260,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Savu_V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interview"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Computer_generated"/>
@@ -271,10 +277,10 @@
         <NamedIndividual IRI="#Ben-Ari_M"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#The_visualizations_of_code_bubbles"/>
+        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MAF:Metrics_Area_Figure"/>
+        <NamedIndividual IRI="#The_visualizations_of_code_bubbles"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Collard_ML"/>
@@ -466,6 +472,9 @@
         <NamedIndividual IRI="#Gerndt_T"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Venue"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Debugging"/>
     </Declaration>
     <Declaration>
@@ -514,16 +523,16 @@
         <NamedIndividual IRI="#EVolve:_an_open_extensible_software_visualization_framework"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Schafer_T"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Anslow_C"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Use"/>
+        <NamedIndividual IRI="#Schafer_T"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#A_Combined_Software_Reconnaissance_&amp;amp;_Static_Analysis_Eclipse_Visualisation_Plug-in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Use"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Diverging"/>
@@ -560,6 +569,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Distort_geometry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedMethod"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Test_manager"/>
@@ -628,10 +640,10 @@
         <NamedIndividual IRI="#dot"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Trumper_J"/>
+        <NamedIndividual IRI="#Tibbitts_BR"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Tibbitts_BR"/>
+        <NamedIndividual IRI="#Trumper_J"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jove"/>
@@ -754,13 +766,13 @@
         <NamedIndividual IRI="#Martin_B"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#wxWindows"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#VisMOOS"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bogart_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wxWindows"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Same"/>
@@ -778,13 +790,13 @@
         <NamedIndividual IRI="#TypeV"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Wettel_R"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Constraine"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Siebenhaller_M"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Wettel_R"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#jMonkeyEngine"/>
@@ -808,10 +820,10 @@
         <NamedIndividual IRI="#Analyst"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Curvature"/>
+        <NamedIndividual IRI="#Hemmati_H"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hemmati_H"/>
+        <NamedIndividual IRI="#Curvature"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Visualization_for_information_exploration_and_analysis:_keynote_presentation"/>
@@ -910,25 +922,25 @@
         <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Irani_P"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Reniers_D"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Navigate"/>
+        <NamedIndividual IRI="#Irani_P"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Quantitative"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Navigate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Perquimans"/>
+        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pixel-Oriented_Techniques_for_Visualizing_Next-Generation_HPC_Systems"/>
+        <NamedIndividual IRI="#Perquimans"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AWT"/>
@@ -950,6 +962,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HTML5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Observation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Change"/>
@@ -1096,10 +1111,10 @@
         <NamedIndividual IRI="#Teammates"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Wuchner_E"/>
+        <NamedIndividual IRI="#Hindle_A"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hindle_A"/>
+        <NamedIndividual IRI="#Wuchner_E"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Position"/>
@@ -1123,16 +1138,19 @@
         <NamedIndividual IRI="#Qt"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#quasi-experimental_design"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pharo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Trevis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Martin,_J."/>
+        <NamedIndividual IRI="#Walkinshaw_N"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Walkinshaw_N"/>
+        <NamedIndividual IRI="#Martin,_J."/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Caudell_TP"/>
@@ -1147,19 +1165,16 @@
         <NamedIndividual IRI="#Execution_patterns_for_visualizing_web_services"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Self-Assessment"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Data"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zinsight"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GLUT"/>
+        <NamedIndividual IRI="#Visualizing_Dynamic_Memory_Allocations"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualizing_Dynamic_Memory_Allocations"/>
+        <NamedIndividual IRI="#GLUT"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Haggard_G"/>
@@ -1216,16 +1231,16 @@
         <NamedIndividual IRI="#Bassett_C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Roassal3D"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Consume"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Burch_M"/>
+        <NamedIndividual IRI="#Roassal3D"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burch_M"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Juxtrapose"/>
@@ -1246,10 +1261,10 @@
         <Class IRI="#Grid"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pierce_S"/>
+        <NamedIndividual IRI="#Barowski_LA"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Barowski_LA"/>
+        <NamedIndividual IRI="#Pierce_S"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2013"/>
@@ -1270,19 +1285,22 @@
         <NamedIndividual IRI="#Wysseier_C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
+        <NamedIndividual IRI="#Holt_RC"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Topology"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Holt_RC"/>
+        <NamedIndividual IRI="#Visualising_concurrent_programs_with_dynamic_dependence_graphs"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Muller_HA"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MetaVis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Think-aloud"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#New_Linux_kernel_developer"/>
@@ -1375,10 +1393,10 @@
         <NamedIndividual IRI="#Benomar_O"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Manager"/>
+        <NamedIndividual IRI="#Architect"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Architect"/>
+        <NamedIndividual IRI="#Manager"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jucknath-John_S"/>
@@ -1432,6 +1450,9 @@
         <NamedIndividual IRI="#Technical_lead"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Videorecord"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cheng_YP"/>
     </Declaration>
     <Declaration>
@@ -1448,6 +1469,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Kim_J"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluated"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
@@ -1492,16 +1516,16 @@
         <NamedIndividual IRI="#Project_manager"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Meyer_M"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Kobourov_S"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Mocci_A"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Meyer_M"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Garcia_FJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kobourov_S"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Revision_Towers"/>
@@ -1522,10 +1546,10 @@
         <NamedIndividual IRI="#Binary"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Physical_3D_model"/>
+        <NamedIndividual IRI="#D3.js"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#D3.js"/>
+        <Class IRI="#Physical_3D_model"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Washizaki_H"/>
@@ -1544,6 +1568,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3D_visualisation_of_code_structures_in_Java_software_systems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Case_Study"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Barthel_H"/>
@@ -1579,10 +1606,10 @@
         <Class IRI="#Map"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Location"/>
+        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MetaVis:_Exploring_Actionable_Visualization"/>
+        <NamedIndividual IRI="#Location"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pinzger_M"/>
@@ -1594,10 +1621,13 @@
         <NamedIndividual IRI="#Hsueh_C"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SAB"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Bytecode"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SAB"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JFreeChart"/>
@@ -1744,13 +1774,13 @@
         <ObjectProperty IRI="#fromVenue"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Shape"/>
+        <Class IRI="#Reduce"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bjorndalen_JM"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reduce"/>
+        <NamedIndividual IRI="#Shape"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Perfective_Maintenance"/>
@@ -1783,13 +1813,16 @@
         <NamedIndividual IRI="#Deelen_P"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kelley_S"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Urquiza-Fuentes_J"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Kelley_S"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Iconic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spartial_region"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Express"/>
@@ -1798,13 +1831,10 @@
         <NamedIndividual IRI="#Krause_R"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Spartial_region"/>
+        <NamedIndividual IRI="#Medani_D"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Trend"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Medani_D"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Linvis"/>
@@ -1879,6 +1909,9 @@
         <Class IRI="#Web"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Questionnaire"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#HProf"/>
     </Declaration>
     <Declaration>
@@ -1909,13 +1942,13 @@
         <NamedIndividual IRI="#DEVis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hamann_B"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Select"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mr.Clean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamann_B"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Link"/>
@@ -1930,10 +1963,10 @@
         <Class IRI="#Data_type"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Immersive"/>
+        <NamedIndividual IRI="#People"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#People"/>
+        <Class IRI="#Immersive"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Superimpose_layer"/>
@@ -1966,13 +1999,13 @@
         <NamedIndividual IRI="#Munro_M"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Angle"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#German_D"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Set"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Angle"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Greene_GJ"/>
@@ -2080,10 +2113,10 @@
         <NamedIndividual IRI="#Fukazawa_Y"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mezini_M"/>
+        <NamedIndividual IRI="#BSD"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BSD"/>
+        <NamedIndividual IRI="#Mezini_M"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Compare"/>
@@ -2098,10 +2131,10 @@
         <ObjectProperty IRI="#isSubject-Oriented"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bohnet_J"/>
+        <NamedIndividual IRI="#Gestwicki_P"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Gestwicki_P"/>
+        <NamedIndividual IRI="#Bohnet_J"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tester"/>
@@ -2111,6 +2144,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bongo_LA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Theorical"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
@@ -2161,10 +2197,10 @@
         <Class IRI="#Embed"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Maintainer"/>
+        <NamedIndividual IRI="#Holten_D"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Holten_D"/>
+        <NamedIndividual IRI="#Maintainer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tensor"/>
@@ -2218,10 +2254,10 @@
         <Class IRI="#All_data"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Gopalakrishnan_G"/>
+        <NamedIndividual IRI="#Campos_J"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Campos_J"/>
+        <NamedIndividual IRI="#Gopalakrishnan_G"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Le_Gear_A"/>
@@ -2272,10 +2308,10 @@
         <Class IRI="#Wall-Display"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Extreme"/>
+        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
+        <Class IRI="#Extreme"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lumsdaine_A"/>
@@ -2311,13 +2347,16 @@
         <Class IRI="#Discover"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Experiment"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasSource"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2003"/>
+        <NamedIndividual IRI="#Leader"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Leader"/>
+        <NamedIndividual IRI="#2003"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -2350,10 +2389,10 @@
         <NamedIndividual IRI="#Standard"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dependencies"/>
+        <NamedIndividual IRI="#Weiskopf_D"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Weiskopf_D"/>
+        <NamedIndividual IRI="#Dependencies"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#describedInTheArticle"/>
@@ -2407,19 +2446,19 @@
         <NamedIndividual IRI="#Programmer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Amini_L"/>
+        <NamedIndividual IRI="#Goerg_C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Goerg_C"/>
+        <NamedIndividual IRI="#Amini_L"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mode_N"/>
+        <NamedIndividual IRI="#Davis_TA"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Davis_TA"/>
+        <NamedIndividual IRI="#Mode_N"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lohr_K-P"/>
@@ -2467,10 +2506,10 @@
         <Class IRI="#Lookup"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Namba_K"/>
+        <NamedIndividual IRI="#Lin_S"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Lin_S"/>
+        <NamedIndividual IRI="#Namba_K"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ishizue_R"/>
@@ -2485,10 +2524,10 @@
         <NamedIndividual IRI="#Visual_support_for_porting_large_code_bases"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Visual_exploration_of_program_structure,_dependencies_and_metrics_with_SolidSX"/>
+        <NamedIndividual IRI="#Cottam_J"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cottam_J"/>
+        <NamedIndividual IRI="#Visual_exploration_of_program_structure,_dependencies_and_metrics_with_SolidSX"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jive"/>
@@ -3102,6 +3141,10 @@
     <SubClassOf>
         <Class IRI="#Vector"/>
         <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venue"/>
+        <Class IRI="#Article"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Wall-Display"/>
@@ -5016,6 +5059,10 @@
         <NamedIndividual IRI="#SMNLV"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Venue"/>
+        <NamedIndividual IRI="#SOFTVIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#SPIDER_SENSE"/>
     </ClassAssertion>
@@ -5406,6 +5453,10 @@
     <ClassAssertion>
         <Class IRI="#Name"/>
         <NamedIndividual IRI="#VERSO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Venue"/>
+        <NamedIndividual IRI="#VISSOFT"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Framework"/>
@@ -6082,6 +6133,11 @@
         <NamedIndividual IRI="#Manager"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -6090,6 +6146,11 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
         <NamedIndividual IRI="#2016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#A_Tool_for_Visualizing_Patterns_of_Spreadsheet_Function_Combinations"/>
+        <NamedIndividual IRI="#Think-aloud"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -6110,11 +6171,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
         <NamedIndividual IRI="#2016"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#A_Visualization_Framework_for_Parallelization"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -6142,6 +6198,11 @@
         <NamedIndividual IRI="#Wilhelm_A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -6150,11 +6211,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
         <NamedIndividual IRI="#2007"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#A_Visualization_for_Software_Project_Awareness_and_Evolution"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -6172,6 +6228,11 @@
         <NamedIndividual IRI="#van_der_Hoek_Andre"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -6180,11 +6241,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
         <NamedIndividual IRI="#2008"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#A_catalogue_of_lightweight_visualizations_to_support_code_smell_inspection"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -6202,6 +6258,11 @@
         <NamedIndividual IRI="#Parnin_C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -6210,11 +6271,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
         <NamedIndividual IRI="#2003"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#A_system_for_graph-based_visualization_of_the_evolution_of_software"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -6302,6 +6358,11 @@
         <NamedIndividual IRI="#Wittiger_M"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -6310,6 +6371,21 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
         <NamedIndividual IRI="#2010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
+        <NamedIndividual IRI="#Questionnaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#An_interactive_ambient_visualization_for_code_smells"/>
+        <NamedIndividual IRI="#Think-aloud"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -7302,6 +7378,11 @@
         <NamedIndividual IRI="#User"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Dependence_cluster_visualization"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Dependence_cluster_visualization"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -7310,11 +7391,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Dependence_cluster_visualization"/>
         <NamedIndividual IRI="#2010"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Dependence_cluster_visualization"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -7507,6 +7583,11 @@
         <NamedIndividual IRI="#Scatter-plot"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Execution_patterns_for_visualizing_web_services"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Execution_patterns_for_visualizing_web_services"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -7532,6 +7613,11 @@
         <NamedIndividual IRI="#de_Pauw_W"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -7540,6 +7626,16 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
         <NamedIndividual IRI="#2006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Experimental_evaluation_of_animated-verifying_object_viewers_for_Java"/>
+        <NamedIndividual IRI="#Interview"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -7972,6 +8068,11 @@
         <NamedIndividual IRI="#Free"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Graph_visualization_for_the_analysis_of_the_structure_and_dynamics_of_extreme-scale_supercomputers"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Graph_visualization_for_the_analysis_of_the_structure_and_dynamics_of_extreme-scale_supercomputers"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -8140,11 +8241,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
         <NamedIndividual IRI="#2015"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Interactive_Tag_Cloud_Visualization_of_Software_Version_Control_Repositories"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -8617,6 +8713,11 @@
         <NamedIndividual IRI="#2015"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Live_Visualization_of_GUI_Application_Code_Coverage_with_GUITracer"/>
         <NamedIndividual IRI="#Molnar_AJ"/>
@@ -8862,6 +8963,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Methodology_and_architecture_of_JIVE"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -8985,6 +9091,16 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
         <NamedIndividual IRI="#2016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Metrics_visualization_technique_based_on_the_origins_and_function_layers_for_OSS-based_development"/>
+        <NamedIndividual IRI="#Questionnaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -9192,6 +9308,11 @@
         <NamedIndividual IRI="#Commercial"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Multiscale_and_multivariate_visualizations_of_software_evolution"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -9230,6 +9351,11 @@
         <ObjectProperty IRI="#useVisualizationTechnique"/>
         <NamedIndividual IRI="#NosePrints"/>
         <NamedIndividual IRI="#Custom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Online-configuration_of_software_visualizations_with_Vizz3D"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -9792,6 +9918,21 @@
         <NamedIndividual IRI="#2003"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
+        <NamedIndividual IRI="#Interview"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
+        <NamedIndividual IRI="#Observation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
+        <NamedIndividual IRI="#Videorecord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
         <NamedIndividual IRI="#Program_animation_based_on_the_roles_of_variables"/>
         <NamedIndividual IRI="#End-User_student"/>
@@ -9877,6 +10018,11 @@
         <NamedIndividual IRI="#Quality_assurance_engineer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Representing_development_history_in_software_cities"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Representing_development_history_in_software_cities"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -9895,6 +10041,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Representing_development_history_in_software_cities"/>
         <NamedIndividual IRI="#Steinbrueckner_F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Representing_unit_test_data_for_large_scale_software_development"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -9942,6 +10093,11 @@
         <NamedIndividual IRI="#Custom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Revision_Towers_article_title"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Revision_Towers_article_title"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -9980,6 +10136,11 @@
         <ObjectProperty IRI="#underLicense"/>
         <NamedIndividual IRI="#SAB"/>
         <NamedIndividual IRI="#Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#SAB_-_The_Software_Architecture_Browser"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -10187,6 +10348,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -10195,6 +10361,11 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
         <NamedIndividual IRI="#2003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Self-Organizing_Maps_Applied_in_Visualising_Large_Software_Collections"/>
+        <NamedIndividual IRI="#Questionnaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -10532,6 +10703,11 @@
         <NamedIndividual IRI="#Developer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Stacked-widget_visualization_of_scheduling-based_algorithms"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Stacked-widget_visualization_of_scheduling-based_algorithms"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -10767,6 +10943,11 @@
         <NamedIndividual IRI="#Lopez-Herrejon_RE"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -10775,6 +10956,26 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
         <NamedIndividual IRI="#2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#Non-Controlled_Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#Questionnaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#Think-aloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_understanding_programs_through_wear-based_filtering"/>
+        <NamedIndividual IRI="#Videorecord"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -11142,11 +11343,6 @@
         <NamedIndividual IRI="#2014"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
         <NamedIndividual IRI="#Telea_A"/>
@@ -11155,6 +11351,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Visual_Clone_Analysis_with_SolidSDD"/>
         <NamedIndividual IRI="#Voinea_L"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visual_Exploration_of_Combined_Architectural_and_Metric_Information"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -11187,6 +11388,11 @@
         <NamedIndividual IRI="#Termeer_M"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11195,11 +11401,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
         <NamedIndividual IRI="#2005"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11215,6 +11416,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Visual_data_mining_in_software_archives"/>
         <NamedIndividual IRI="#Weissgerber_P"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visual_exploration_of_function_call_graphs_for_feature_location_in_complex_software_systems"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -11282,6 +11488,16 @@
         <NamedIndividual IRI="#Malmi_L"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
+        <NamedIndividual IRI="#Case_Study"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualization_of_mobile_object_environments"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11307,6 +11523,11 @@
         <NamedIndividual IRI="#Tal_A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11315,11 +11536,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
         <NamedIndividual IRI="#2003"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11335,6 +11551,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Visualization_of_program-execution_data_for_deployed_software"/>
         <NamedIndividual IRI="#Orso_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_Dynamic_Memory_Allocations"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -11357,6 +11578,11 @@
         <NamedIndividual IRI="#Telea_A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_Java_in_action"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualizing_Java_in_action"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11372,6 +11598,11 @@
         <NamedIndividual IRI="#Reiss_SP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -11380,11 +11611,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
         <NamedIndividual IRI="#2016"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visualizing_Project_Evolution_through_Abstract_Syntax_Tree_Analysis"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11407,6 +11633,11 @@
         <NamedIndividual IRI="#Watts_I"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11415,11 +11646,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
         <NamedIndividual IRI="#2006"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visualizing_live_software_systems_in_3D"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11437,6 +11663,11 @@
         <NamedIndividual IRI="#Wysseier_C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -11445,11 +11676,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
         <NamedIndividual IRI="#2013"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11465,6 +11691,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Visualizing_software_dynamicities_with_heat_maps"/>
         <NamedIndividual IRI="#Sahraoui_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_structural_properties_of_irregular_parallel_computations"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -11492,6 +11723,11 @@
         <NamedIndividual IRI="#Blochinger,_W."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -11500,11 +11736,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
         <NamedIndividual IRI="#2010"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Visualizing_windows_system_traces"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -11947,6 +12178,11 @@
         <NamedIndividual IRI="#Kern_M"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -11955,11 +12191,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
         <NamedIndividual IRI="#2007"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#A_Bug&apos;s_Life_Visualizing_a_Bug_Database"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12017,6 +12248,11 @@
         <NamedIndividual IRI="#2008"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
+        <NamedIndividual IRI="#Observation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
         <NamedIndividual IRI="#An_interactive_reverse_engineering_environment_for_large-scale_C++_code"/>
         <NamedIndividual IRI="#Mix-Convenience-End-User"/>
@@ -12042,6 +12278,11 @@
         <NamedIndividual IRI="#2010"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12050,11 +12291,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
         <NamedIndividual IRI="#2015"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Blended,_Not_Stirred:_Multi-concern_Visualization_of_Large_Software_Systems"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12077,6 +12313,11 @@
         <NamedIndividual IRI="#Mocci_A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
+        <NamedIndividual IRI="#Case_Study"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12085,6 +12326,11 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
         <NamedIndividual IRI="#2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#CVSscan:_visualization_of_code_evolution"/>
+        <NamedIndividual IRI="#Observation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -12107,6 +12353,11 @@
         <NamedIndividual IRI="#van_Wijk_JJ"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12115,6 +12366,11 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
         <NamedIndividual IRI="#2014"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#ChronoTwigger:_A_Visual_Analytics_Tool_for_Understanding_Source_and_Test_Co-evolution"/>
+        <NamedIndividual IRI="#Think-aloud"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -12257,6 +12513,11 @@
         <NamedIndividual IRI="#Martin,_J."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#EVolve:_an_open_extensible_software_visualization_framework"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#EVolve:_an_open_extensible_software_visualization_framework"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12342,6 +12603,11 @@
         <NamedIndividual IRI="#Nierstrasz_O"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12350,11 +12616,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
         <NamedIndividual IRI="#2010"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Exploring_the_inventor&apos;s_paradox:_applying_jigsaw_to_software_visualization"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12412,6 +12673,11 @@
         <NamedIndividual IRI="#VISSOFT"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12420,11 +12686,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
         <NamedIndividual IRI="#2010"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Heapviz:_interactive_heap_visualization_for_program_understanding_and_debugging"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12457,6 +12718,11 @@
         <NamedIndividual IRI="#Su_SL"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Jove:_java_as_it_happens"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Jove:_java_as_it_happens"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12477,6 +12743,11 @@
         <NamedIndividual IRI="#Renieris_M"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Jsvee_&amp;_Kelmu:_Creating_and_Tailoring_Program_Animations_for_Computing_Education"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Jsvee_&amp;_Kelmu:_Creating_and_Tailoring_Program_Animations_for_Computing_Education"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12490,6 +12761,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Jsvee_&amp;_Kelmu:_Creating_and_Tailoring_Program_Animations_for_Computing_Education"/>
         <NamedIndividual IRI="#Sirkiae_T"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#KScope:_A_Modularized_Tool_for_3D_Visualization_of_Object-Oriented_Programs"/>
+        <NamedIndividual IRI="#Theorical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -12632,6 +12908,11 @@
         <NamedIndividual IRI="#Tester"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Merge-Tree:_Visualizing_the_Integration_of_Commits_into_Linux"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Merge-Tree:_Visualizing_the_Integration_of_Commits_into_Linux"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12687,6 +12968,11 @@
         <NamedIndividual IRI="#Nierstrasz_O"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -12695,11 +12981,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
         <NamedIndividual IRI="#2006"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Mondrian:_an_agile_information_visualization_framework"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12827,11 +13108,6 @@
         <NamedIndividual IRI="#2014"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Polyptychon:_A_Hierarchically-Constrained_Classified_Dependencies_Visualization"/>
         <NamedIndividual IRI="#Daniel_DT"/>
@@ -12865,11 +13141,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#SMNLV:_A_Small-Multiples_Node-Link_Visualization_Supporting_Software_Comprehension_by_Displaying_Multiple_Relationships_in_Software_Structure"/>
         <NamedIndividual IRI="#2015"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#SMNLV:_A_Small-Multiples_Node-Link_Visualization_Supporting_Software_Comprehension_by_Displaying_Multiple_Relationships_in_Software_Structure"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -12912,6 +13183,11 @@
         <NamedIndividual IRI="#Jones,_J.A."/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#SYNCTRACE:_Visual_thread-interplay_analysis"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12937,6 +13213,11 @@
         <NamedIndividual IRI="#Trumper_J"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -12945,6 +13226,21 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
         <NamedIndividual IRI="#2013"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+        <NamedIndividual IRI="#Questionnaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+        <NamedIndividual IRI="#Think-aloud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#SourceVis:_Collaborative_software_visualization_for_co-located_environments"/>
+        <NamedIndividual IRI="#Videorecord"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#wasAttendedBy"/>
@@ -12977,6 +13273,11 @@
         <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
+        <NamedIndividual IRI="#No_Formal_Evaluation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -13000,6 +13301,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#Streamsight:_a_visualization_tool_for_large-scale_streaming_applications"/>
         <NamedIndividual IRI="#de_Pauw_W"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#The_war_room_command_console:_shared_visualizations_for_inclusive_team_coordination"/>
+        <NamedIndividual IRI="#Case_Study"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
@@ -13032,6 +13338,11 @@
         <NamedIndividual IRI="#O&apos;Reilly_C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
         <NamedIndividual IRI="#SOFTVIS"/>
@@ -13040,6 +13351,16 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
         <NamedIndividual IRI="#2010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
+        <NamedIndividual IRI="#Experiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedMethod"/>
+        <NamedIndividual IRI="#Towards_anomaly_comprehension:_using_structural_compression_to_navigate_profiling_call-trees"/>
+        <NamedIndividual IRI="#Questionnaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -13070,11 +13391,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
         <NamedIndividual IRI="#2010"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Trevis:_a_context_tree_visualization_&amp;_analysis_framework_and_its_use_for_classifying_performance_failure_reports"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -13187,6 +13503,11 @@
         <NamedIndividual IRI="#Stasko_J"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
+        <NamedIndividual IRI="#Case_Study"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
         <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
         <NamedIndividual IRI="#VISSOFT"/>
@@ -13195,11 +13516,6 @@
         <ObjectProperty IRI="#publicationYear"/>
         <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
         <NamedIndividual IRI="#2016"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#wasAttendedBy"/>
-        <NamedIndividual IRI="#Walls,_Pillars_and_Beams:_A_3D_Decomposition_of_Quality_Anomalies"/>
-        <NamedIndividual IRI="#Self-Assessment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#writtenBy"/>
@@ -13240,6 +13556,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#XVIZIT:_Visualizing_Cognitive_Units_in_Spreadsheets"/>
         <NamedIndividual IRI="#Pinzger_M"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evaluated"/>
+        <NamedIndividual IRI="#Zinsight:_a_visual_and_analytic_environment_for_exploring_large_event_traces"/>
+        <NamedIndividual IRI="#Case_Study"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#fromVenue"/>
